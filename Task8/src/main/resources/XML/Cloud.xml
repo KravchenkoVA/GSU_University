@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.epam.tat.test.Cloud" >
+    <test name="com.epam.tat.test.Cloud test">
+        <classes>
+            <class name="com.epam.tat.test.Cloud.CloudLogin" />
+            <class name="com.epam.tat.test.Cloud.InCloud" />
+            <class name="com.epam.tat.test.Cloud.WorkWithFiles" />
+        </classes>
+    </test>
+</suite>

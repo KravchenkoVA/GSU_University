@@ -1,0 +1,304 @@
+22:58:19,809  INFO - Parse cli
+22:58:19,815  INFO - Parse clis using JCommander
+22:58:19,952  INFO - Start application
+22:58:21,062  INFO - [SUITE STARTED] Mail
+22:58:21,063 DEBUG - Parallel: methods
+22:58:21,063 DEBUG - Thread count: 1
+22:58:21,063  INFO - [TEST STARTED] Mail test
+22:58:27,272 DEBUG - Our driver ChromeDriver: chrome on XP (805bf628051dc04ac4ee6e88b7ead96d)
+22:58:27,298 DEBUG - Open https://mail.ru
+22:58:31,007 DEBUG - value is type By.name: login
+22:58:31,009 DEBUG - find By.name: login
+22:58:31,009 DEBUG - find Element By.name: login
+22:58:31,009 DEBUG - Find null
+22:58:31,878  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12869087763970.png
+22:58:32,660 DEBUG - value is type By.name: password
+22:58:32,660 DEBUG - find By.name: password
+22:58:32,661 DEBUG - find Element By.name: password
+22:58:32,661 DEBUG - Find null
+22:58:33,125  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12870738216166.png
+22:58:33,723 DEBUG - click By.cssSelector: input[class='o-control']
+22:58:33,723 DEBUG - find By.cssSelector: input[class='o-control']
+22:58:33,723 DEBUG - find Element By.cssSelector: input[class='o-control']
+22:58:33,723 DEBUG - Find null
+22:58:34,145  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12871800386114.png
+22:58:34,187 DEBUG - Click[[ChromeDriver: chrome on XP (805bf628051dc04ac4ee6e88b7ead96d)] -> css selector: input[class='o-control']]
+22:58:34,451 DEBUG - wait for AppearBy.cssSelector: i[id='PH_user-email']
+22:58:34,451 DEBUG - wait For Element IsVisible By.cssSelector: i[id='PH_user-email']
+22:58:34,461 DEBUG - Find null
+22:58:42,301  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12872540141149.png
+22:58:42,388 DEBUG - element is visible By.cssSelector: i[id='PH_user-email']
+22:58:42,388 DEBUG - is Element Visible By.cssSelector: i[id='PH_user-email']
+22:58:42,388 DEBUG - is Element Present By.cssSelector: i[id='PH_user-email']
+22:58:42,388 DEBUG - Find null
+22:58:42,687  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12880465512581.png
+22:58:42,702 DEBUG - find Element By.cssSelector: i[id='PH_user-email']
+22:58:42,702 DEBUG - Find null
+22:58:42,999  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12880779962893.png
+22:58:44,983 DEBUG - Close
+22:58:51,766 DEBUG - Our driver ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)
+22:58:51,766 DEBUG - Open https://mail.ru
+22:58:54,496 DEBUG - value is type By.name: login
+22:58:54,496 DEBUG - find By.name: login
+22:58:54,497 DEBUG - find Element By.name: login
+22:58:54,497 DEBUG - Find null
+22:58:55,358  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12892573558372.png
+22:58:56,248 DEBUG - value is type By.name: password
+22:58:56,248 DEBUG - find By.name: password
+22:58:56,248 DEBUG - find Element By.name: password
+22:58:56,248 DEBUG - Find null
+22:58:56,705  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12894325407124.png
+22:58:57,306 DEBUG - click By.cssSelector: input[class='o-control']
+22:58:57,306 DEBUG - find By.cssSelector: input[class='o-control']
+22:58:57,306 DEBUG - find Element By.cssSelector: input[class='o-control']
+22:58:57,307 DEBUG - Find null
+22:58:57,769  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12895383532339.png
+22:58:57,811 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> css selector: input[class='o-control']]
+22:58:57,991 DEBUG - wait for AppearBy.cssSelector: div#b-toolbar__left a[data-name='compose']
+22:58:57,991 DEBUG - wait For Element IsVisible By.cssSelector: div#b-toolbar__left a[data-name='compose']
+22:58:57,991 DEBUG - Find null
+22:59:06,110  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12896068482216.png
+22:59:06,206 DEBUG - click By.cssSelector: div#b-toolbar__left a[data-name='compose']
+22:59:06,206 DEBUG - find By.cssSelector: div#b-toolbar__left a[data-name='compose']
+22:59:06,206 DEBUG - find Element By.cssSelector: div#b-toolbar__left a[data-name='compose']
+22:59:06,206 DEBUG - Find null
+22:59:06,517  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12904283626757.png
+22:59:06,548 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> css selector: div#b-toolbar__left a[data-name='compose']]
+22:59:08,688 DEBUG - value is type By.cssSelector: textarea[data-original-name='To']
+22:59:08,689 DEBUG - find By.cssSelector: textarea[data-original-name='To']
+22:59:08,689 DEBUG - find Element By.cssSelector: textarea[data-original-name='To']
+22:59:08,689 DEBUG - Find null
+22:59:09,235  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12906765121564.png
+22:59:10,403 DEBUG - value is type By.name: Subject
+22:59:10,403 DEBUG - find By.name: Subject
+22:59:10,403 DEBUG - find Element By.name: Subject
+22:59:10,403 DEBUG - Find null
+22:59:10,750  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12908479713048.png
+22:59:10,973 DEBUG - switch to By.xpath: //iframe[contains(@id,'toolkit')]
+22:59:10,973 DEBUG - find By.xpath: //iframe[contains(@id,'toolkit')]
+22:59:10,974 DEBUG - find Element By.xpath: //iframe[contains(@id,'toolkit')]
+22:59:10,974 DEBUG - Find null
+22:59:11,306  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12909049931979.png
+22:59:11,439 DEBUG - value is type By.cssSelector: body[id='tinymce']
+22:59:11,439 DEBUG - find By.cssSelector: body[id='tinymce']
+22:59:11,439 DEBUG - find Element By.cssSelector: body[id='tinymce']
+22:59:11,439 DEBUG - Find null
+22:59:11,778  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12909515730782.png
+22:59:12,090 DEBUG - click By.cssSelector: div[data-name='send']
+22:59:12,090 DEBUG - find By.cssSelector: div[data-name='send']
+22:59:12,090 DEBUG - find Element By.cssSelector: div[data-name='send']
+22:59:12,091 DEBUG - Find null
+22:59:12,410  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12910167065590.png
+22:59:12,434 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> css selector: div[data-name='send']]
+22:59:12,708 DEBUG - wait for AppearBy.cssSelector: div[data-id='0']>a
+22:59:12,708 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='0']>a
+22:59:12,708 DEBUG - Find null
+22:59:13,445  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12910784380512.png
+22:59:14,582 DEBUG - Find null
+22:59:14,989  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12912658346665.png
+22:59:15,047 DEBUG - click By.cssSelector: div[data-id='0']>a
+22:59:15,047 DEBUG - find By.cssSelector: div[data-id='0']>a
+22:59:15,047 DEBUG - find Element By.cssSelector: div[data-id='0']>a
+22:59:15,047 DEBUG - Find null
+22:59:15,444  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12913123741793.png
+22:59:15,472 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> css selector: div[data-id='0']>a]
+22:59:15,800 DEBUG - wait for AppearBy.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+22:59:15,800 DEBUG - wait For Element IsVisible By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+22:59:15,800 DEBUG - Find null
+22:59:16,152  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12913876766791.png
+22:59:16,219 DEBUG - get text By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+22:59:16,219 DEBUG - find By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+22:59:16,219 DEBUG - find Element By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+22:59:16,219 DEBUG - Find null
+22:59:16,548  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12914295764376.png
+22:59:16,621 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+22:59:16,622 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+22:59:16,622 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+22:59:16,624 DEBUG - Find null
+22:59:16,945  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12914700304352.png
+22:59:16,975 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]
+22:59:17,097 DEBUG - click By.cssSelector: div[data-name='remove']
+22:59:17,097 DEBUG - find By.cssSelector: div[data-name='remove']
+22:59:17,098 DEBUG - find Element By.cssSelector: div[data-name='remove']
+22:59:17,098 DEBUG - Find null
+22:59:17,419  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12915174062054.png
+22:59:17,444 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> css selector: div[data-name='remove']]
+22:59:17,564 DEBUG - wait for AppearBy.cssSelector: div[data-id='500000']
+22:59:17,564 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='500000']
+22:59:17,564 DEBUG - Find null
+22:59:17,991  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12915640340364.png
+22:59:18,067 DEBUG - click By.cssSelector: div[data-id='500000']
+22:59:18,068 DEBUG - find By.cssSelector: div[data-id='500000']
+22:59:18,068 DEBUG - find Element By.cssSelector: div[data-id='500000']
+22:59:18,068 DEBUG - Find null
+22:59:18,389  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12916144267073.png
+22:59:18,445 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> css selector: div[data-id='500000']]
+22:59:18,583 DEBUG - wait for AppearBy.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+22:59:18,583 DEBUG - wait For Element IsVisible By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+22:59:18,584 DEBUG - Find null
+22:59:19,051  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12916660034346.png
+22:59:19,107 DEBUG - get text By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+22:59:19,107 DEBUG - find By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+22:59:19,107 DEBUG - find Element By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+22:59:19,107 DEBUG - Find null
+22:59:19,419  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12917183517058.png
+22:59:19,476 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+22:59:19,476 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+22:59:19,476 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+22:59:19,476 DEBUG - Find null
+22:59:19,772  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12917552394511.png
+22:59:19,803 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]
+22:59:20,024 DEBUG - click By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+22:59:20,024 DEBUG - find By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+22:59:20,024 DEBUG - find Element By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+22:59:20,024 DEBUG - Find null
+22:59:20,408  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12918100857752.png
+22:59:20,464 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]
+22:59:23,918 DEBUG - Open https://mail.ru
+22:59:24,984 DEBUG - value is type By.name: login
+22:59:24,985 DEBUG - find By.name: login
+22:59:24,985 DEBUG - find Element By.name: login
+22:59:24,985 DEBUG - Find null
+22:59:25,403  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12923060561518.png
+22:59:26,166 DEBUG - value is type By.name: password
+22:59:26,166 DEBUG - find By.name: password
+22:59:26,166 DEBUG - find Element By.name: password
+22:59:26,166 DEBUG - Find null
+22:59:26,583  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12924241777401.png
+22:59:26,930 DEBUG - click By.cssSelector: input[class='o-control']
+22:59:26,930 DEBUG - find By.cssSelector: input[class='o-control']
+22:59:26,930 DEBUG - find Element By.cssSelector: input[class='o-control']
+22:59:26,930 DEBUG - Find null
+22:59:27,321  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12925005470138.png
+22:59:27,346 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> css selector: input[class='o-control']]
+22:59:27,492 DEBUG - wait for AppearBy.cssSelector: div#b-toolbar__left a[data-name='compose']
+22:59:27,492 DEBUG - wait For Element IsVisible By.cssSelector: div#b-toolbar__left a[data-name='compose']
+22:59:27,492 DEBUG - Find null
+22:59:33,827  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12925568030647.png
+22:59:33,909 DEBUG - click By.cssSelector: div#b-toolbar__left a[data-name='compose']
+22:59:33,909 DEBUG - find By.cssSelector: div#b-toolbar__left a[data-name='compose']
+22:59:33,909 DEBUG - find Element By.cssSelector: div#b-toolbar__left a[data-name='compose']
+22:59:33,909 DEBUG - Find null
+22:59:34,224  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12931985114197.png
+22:59:34,253 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> css selector: div#b-toolbar__left a[data-name='compose']]
+22:59:35,875 DEBUG - value is type By.cssSelector: textarea[data-original-name='To']
+22:59:35,875 DEBUG - find By.cssSelector: textarea[data-original-name='To']
+22:59:35,875 DEBUG - find Element By.cssSelector: textarea[data-original-name='To']
+22:59:35,875 DEBUG - Find null
+22:59:36,302  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12933950979710.png
+22:59:37,339 DEBUG - value is type By.name: Subject
+22:59:37,340 DEBUG - find By.name: Subject
+22:59:37,340 DEBUG - find Element By.name: Subject
+22:59:37,340 DEBUG - Find null
+22:59:37,666  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12935415622224.png
+22:59:37,810 DEBUG - switch to By.xpath: //iframe[contains(@id,'toolkit')]
+22:59:37,810 DEBUG - find By.xpath: //iframe[contains(@id,'toolkit')]
+22:59:37,810 DEBUG - find Element By.xpath: //iframe[contains(@id,'toolkit')]
+22:59:37,810 DEBUG - Find null
+22:59:38,102  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12935886134560.png
+22:59:38,191 DEBUG - value is type By.cssSelector: body[id='tinymce']
+22:59:38,191 DEBUG - find By.cssSelector: body[id='tinymce']
+22:59:38,191 DEBUG - find Element By.cssSelector: body[id='tinymce']
+22:59:38,191 DEBUG - Find null
+22:59:38,485  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12936266817797.png
+22:59:38,649 DEBUG - click By.cssSelector: div[data-name='send']
+22:59:38,649 DEBUG - find By.cssSelector: div[data-name='send']
+22:59:38,649 DEBUG - find Element By.cssSelector: div[data-name='send']
+22:59:38,649 DEBUG - Find null
+22:59:38,966  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12936724774586.png
+22:59:38,991 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> css selector: div[data-name='send']]
+22:59:39,174 DEBUG - wait for AppearBy.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+22:59:39,174 DEBUG - wait For Element IsVisible By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+22:59:39,174 DEBUG - Find null
+22:59:39,628  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12937250298480.png
+22:59:39,686 DEBUG - click By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+22:59:39,686 DEBUG - find By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+22:59:39,687 DEBUG - find Element By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+22:59:39,687 DEBUG - Find null
+22:59:40,008  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12937762548991.png
+22:59:40,040 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> xpath: //div[@class='is-compose-empty_in']//button[@type='submit']]
+22:59:40,220 DEBUG - wait for AppearBy.cssSelector: div[data-id='0']>a
+22:59:40,221 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='0']>a
+22:59:40,221 DEBUG - Find null
+22:59:40,878  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12938296797511.png
+22:59:41,894 DEBUG - Find null
+22:59:42,251  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12939968991713.png
+22:59:42,294 DEBUG - click By.cssSelector: div[data-id='0']>a
+22:59:42,294 DEBUG - find By.cssSelector: div[data-id='0']>a
+22:59:42,294 DEBUG - find Element By.cssSelector: div[data-id='0']>a
+22:59:42,294 DEBUG - Find null
+22:59:42,652  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12940369440773.png
+22:59:42,692 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> css selector: div[data-id='0']>a]
+22:59:43,118 DEBUG - wait for AppearBy.cssSelector: div.b-datalist__item__subj
+22:59:43,119 DEBUG - wait For Element IsVisible By.cssSelector: div.b-datalist__item__subj
+22:59:43,119 DEBUG - Find null
+22:59:43,469  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12941193907129.png
+22:59:43,524 DEBUG - get text By.cssSelector: div.b-datalist__item__subj
+22:59:43,524 DEBUG - find By.cssSelector: div.b-datalist__item__subj
+22:59:43,524 DEBUG - find Element By.cssSelector: div.b-datalist__item__subj
+22:59:43,524 DEBUG - Find null
+22:59:43,810  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12941598997312.png
+22:59:43,876 DEBUG - wait for AppearBy.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+22:59:43,876 DEBUG - wait For Element IsVisible By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+22:59:43,876 DEBUG - Find null
+22:59:44,173  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12941951128522.png
+22:59:44,226 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+22:59:44,227 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+22:59:44,227 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+22:59:44,227 DEBUG - Find null
+22:59:44,516  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12942302539047.png
+22:59:44,561 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]
+22:59:44,688 DEBUG - click By.cssSelector: div[data-name='remove']
+22:59:44,688 DEBUG - find By.cssSelector: div[data-name='remove']
+22:59:44,688 DEBUG - find Element By.cssSelector: div[data-name='remove']
+22:59:44,688 DEBUG - Find null
+22:59:44,996  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12942763171038.png
+22:59:45,031 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> css selector: div[data-name='remove']]
+22:59:45,144 DEBUG - wait for AppearBy.cssSelector: div[data-id='500000']
+22:59:45,144 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='500000']
+22:59:45,144 DEBUG - Find null
+22:59:45,529  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12943218815247.png
+22:59:45,594 DEBUG - click By.cssSelector: div[data-id='500000']
+22:59:45,594 DEBUG - find By.cssSelector: div[data-id='500000']
+22:59:45,594 DEBUG - find Element By.cssSelector: div[data-id='500000']
+22:59:45,594 DEBUG - Find null
+22:59:45,977  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12943669395274.png
+22:59:46,015 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> css selector: div[data-id='500000']]
+22:59:46,179 DEBUG - wait for AppearBy.cssSelector: div.b-datalist__item__subj
+22:59:46,179 DEBUG - wait For Element IsVisible By.cssSelector: div.b-datalist__item__subj
+22:59:46,179 DEBUG - Find null
+22:59:46,551  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12944253831776.png
+22:59:46,669 DEBUG - get text By.cssSelector: div.b-datalist__item__subj
+22:59:46,670 DEBUG - find By.cssSelector: div.b-datalist__item__subj
+22:59:46,670 DEBUG - find Element By.cssSelector: div.b-datalist__item__subj
+22:59:46,670 DEBUG - Find null
+22:59:46,961  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12944745026757.png
+22:59:47,032 DEBUG - wait for AppearBy.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+22:59:47,033 DEBUG - wait For Element IsVisible By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+22:59:47,033 DEBUG - Find null
+22:59:47,330  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12945108157542.png
+22:59:47,372 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+22:59:47,372 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+22:59:47,372 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+22:59:47,372 DEBUG - Find null
+22:59:47,647  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12945447636277.png
+22:59:47,664 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]
+22:59:47,801 DEBUG - click By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+22:59:47,801 DEBUG - find By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+22:59:47,801 DEBUG - find Element By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+22:59:47,801 DEBUG - Find null
+22:59:48,101  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12945876542717.png
+22:59:48,129 DEBUG - Click[[ChromeDriver: chrome on XP (127afe259f51a030a88de7e2c14080d5)] -> xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]
+22:59:48,257 DEBUG - Open https://mail.ru
+22:59:49,535 DEBUG - value is type By.name: login
+22:59:49,535 DEBUG - find By.name: login
+22:59:49,535 DEBUG - find Element By.name: login
+22:59:49,535 DEBUG - Find null
+22:59:49,961  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12947610432491.png
+22:59:50,355  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\log\screenshot\12948067397767.png
+22:59:50,435  INFO - [TEST FINISHED] Mail test
+22:59:50,435 DEBUG - Quits this driver, closing every associated window.
+22:59:54,664 DEBUG - Our driver ChromeDriver: chrome on XP (782f7222b77573f2d65e6cc7f22ffb2c)
+22:59:54,665 DEBUG - Close
+22:59:55,609  INFO - [SUITE FINISHED] Mail
+22:59:55,959  INFO - End application
