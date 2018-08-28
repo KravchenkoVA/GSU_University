@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Mail]">
+  <test thread-count="5" name="Mail test(failed)">
+    <classes>
+      <class name="com.epam.tat.test.Mail.MailLogin">
+        <methods>
+          <include name="testSuccessfulLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.epam.tat.test.Mail.MailLogin -->
+      <class name="com.epam.tat.test.Mail.MailDraft">
+        <methods>
+          <include name="testDraft"/>
+        </methods>
+      </class> <!-- com.epam.tat.test.Mail.MailDraft -->
+      <class name="com.epam.tat.test.Mail.MailSendFull">
+        <methods>
+          <include name="FullMessage"/>
+        </methods>
+      </class> <!-- com.epam.tat.test.Mail.MailSendFull -->
+      <class name="com.epam.tat.test.Mail.MailEmpty">
+        <methods>
+          <include name="testEmptyEmail"/>
+        </methods>
+      </class> <!-- com.epam.tat.test.Mail.MailEmpty -->
+    </classes>
+  </test> <!-- Mail test(failed) -->
+</suite> <!-- Failed suite [Mail] -->

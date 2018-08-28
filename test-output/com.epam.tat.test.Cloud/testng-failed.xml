@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [com.epam.tat.test.Cloud]" parallel="methods">
+  <test thread-count="1" name="com.epam.tat.test.Cloud test(failed)" parallel="methods">
+    <classes>
+      <class name="com.epam.tat.test.Cloud.InCloud">
+        <methods>
+          <include name="deleteFolder"/>
+          <include name="createFolder"/>
+        </methods>
+      </class> <!-- com.epam.tat.test.Cloud.InCloud -->
+      <class name="com.epam.tat.test.Cloud.WorkWithFiles">
+        <methods>
+          <include name="dragandDrop"/>
+          <include name="shareLink"/>
+          <include name="updFile"/>
+        </methods>
+      </class> <!-- com.epam.tat.test.Cloud.WorkWithFiles -->
+    </classes>
+  </test> <!-- com.epam.tat.test.Cloud test(failed) -->
+</suite> <!-- Failed suite [com.epam.tat.test.Cloud] -->
