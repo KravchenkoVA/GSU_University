@@ -1,0 +1,10 @@
+14:14:58,521  INFO - Parse cli
+14:14:58,526  INFO - Parse clis using JCommander
+14:14:58,693  INFO - Start application
+14:15:06,951  INFO - [SUITE STARTED] Mail
+14:15:06,952 DEBUG - Parallel: methods
+14:15:06,952 DEBUG - Thread count: 1
+14:15:06,953  INFO - [TEST STARTED] Mail test
+14:15:41,343  INFO - [TEST FINISHED] Mail test
+14:15:41,343 DEBUG - Quits this driver, closing every associated window.
+14:15:43,363  INFO - [SUITE FINISHED] Mail
