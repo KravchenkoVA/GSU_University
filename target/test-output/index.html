@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Mail">
+              <span class="suite-name border-passed">Mail</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Mail">
+                    <span>C:\Users\Kolfer\Desktop\QA\Task8\target\src\main\resources\XML\Mail.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Mail">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Mail">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Mail">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Mail">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Mail">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Mail">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Mail" class="hide-methods passed suite-Mail"> (hide)</a> <!-- hide-methods passed suite-Mail -->
+                      <a href="#" panel-name="suite-Mail" class="show-methods passed suite-Mail"> (show)</a> <!-- show-methods passed suite-Mail -->
+                    </span>
+                    <div class="method-list-content passed suite-Mail">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mail" title="com.epam.tat.test.Mail.MailSendFull" hash-for-method="FullMessage">FullMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mail" title="com.epam.tat.test.Mail.MailEmpty" hash-for-method="testEmptyEmail">testEmptyEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mail" title="com.epam.tat.test.Mail.MailLogin" hash-for-method="testSuccessfulLogin">testSuccessfulLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Mail -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Mail" class="panel Mail">
+          <div class="suite-Mail-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.test.Mail.MailEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyEmail">
+                  </a> <!-- testEmptyEmail -->
+                  <span class="method-name">testEmptyEmail</span>
+                  <em>
+(Sending an empty email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mail-class-passed -->
+          <div class="suite-Mail-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.test.Mail.MailLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLogin">
+                  </a> <!-- testSuccessfulLogin -->
+                  <span class="method-name">testSuccessfulLogin</span>
+                  <em>
+(This test for success logged)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mail-class-passed -->
+          <div class="suite-Mail-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.test.Mail.MailSendFull</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FullMessage">
+                  </a> <!-- FullMessage -->
+                  <span class="method-name">FullMessage</span>
+                  <em>
+(Send full letter)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mail-class-passed -->
+        </div> <!-- panel Mail -->
+        <div panel-name="test-xml-Mail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Kolfer\Desktop\QA\Task8\target\src\main\resources\XML\Mail.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Mail&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Mail test&quot; parallel=&quot;methods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.test.Mail.MailLogin&quot;/&gt;
+      &lt;class name=&quot;com.epam.tat.test.Mail.MailSendFull&quot;/&gt;
+      &lt;class name=&quot;com.epam.tat.test.Mail.MailEmpty&quot;/&gt;
+      &lt;class name=&quot;com.epam.tat.test.Mail.MailDraft&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mail test --&gt;
+&lt;/suite&gt; &lt;!-- Mail --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Mail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Mail</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Mail test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Mail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Mail</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Mail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Mail</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Mail');
+function tableData_Mail() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'FullMessage')
+data.setCell(0, 2, 'com.epam.tat.test.Mail.MailSendFull')
+data.setCell(0, 3, 32924);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSuccessfulLogin')
+data.setCell(1, 2, 'com.epam.tat.test.Mail.MailLogin')
+data.setCell(1, 3, 27432);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testEmptyEmail')
+data.setCell(2, 2, 'com.epam.tat.test.Mail.MailEmpty')
+data.setCell(2, 3, 23626);
+window.suiteTableData['Mail']= { tableData: data, tableDiv: 'times-div-Mail'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Mail">
+              </div> <!-- times-div-Mail -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Mail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Mail</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSuccessfulLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Create By.cssSelector: i[id='PH_user-email']</span>
+                <span class="reporter-method-output">Create By.name: login</span>
+                <span class="reporter-method-output">Create By.name: password</span>
+                <span class="reporter-method-output">Create By.cssSelector: input[class='o-control']</span>
+                <span class="reporter-method-output">23:09:30,962 DEBUG - Our driver ChromeDriver: chrome on XP (425179e3f5cfddb8e6c47641cd6bbd03)
+</span>
+                <span class="reporter-method-output">23:09:30,991 DEBUG - Open https://mail.ru
+</span>
+                <span class="reporter-method-output">23:09:33,545 DEBUG - value is type By.name: login
+</span>
+                <span class="reporter-method-output">23:09:33,549 DEBUG - find By.name: login
+</span>
+                <span class="reporter-method-output">23:09:33,551 DEBUG - find Element By.name: login
+</span>
+                <span class="reporter-method-output">23:09:33,553 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:09:34,112  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13531609796189.png
+</span>
+                <span class="reporter-method-output">23:09:34,712 DEBUG - value is type By.name: password
+</span>
+                <span class="reporter-method-output">23:09:34,712 DEBUG - find By.name: password
+</span>
+                <span class="reporter-method-output">23:09:34,714 DEBUG - find Element By.name: password
+</span>
+                <span class="reporter-method-output">23:09:34,715 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:09:35,273  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13532774022941.png
+</span>
+                <span class="reporter-method-output">23:09:35,799 DEBUG - click By.cssSelector: input[class='o-control']
+</span>
+                <span class="reporter-method-output">23:09:35,801 DEBUG - find By.cssSelector: input[class='o-control']
+</span>
+                <span class="reporter-method-output">23:09:35,802 DEBUG - find Element By.cssSelector: input[class='o-control']
+</span>
+                <span class="reporter-method-output">23:09:35,808 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:09:36,231  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13533871418096.png
+</span>
+                <span class="reporter-method-output">23:09:36,259 DEBUG - Click[[ChromeDriver: chrome on XP (425179e3f5cfddb8e6c47641cd6bbd03)] -> css selector: input[class='o-control']]
+</span>
+                <span class="reporter-method-output">Create By.cssSelector: i[id='PH_user-email']</span>
+                <span class="reporter-method-output">Create By.name: login</span>
+                <span class="reporter-method-output">Create By.name: password</span>
+                <span class="reporter-method-output">Create By.cssSelector: input[class='o-control']</span>
+                <span class="reporter-method-output">23:09:36,446 DEBUG - wait for AppearBy.cssSelector: i[id='PH_user-email']
+</span>
+                <span class="reporter-method-output">23:09:36,447 DEBUG - wait For Element IsVisible By.cssSelector: i[id='PH_user-email']
+</span>
+                <span class="reporter-method-output">23:09:36,491 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:09:45,846  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13534548143950.png
+</span>
+                <span class="reporter-method-output">23:09:45,927 DEBUG - element is visible By.cssSelector: i[id='PH_user-email']
+</span>
+                <span class="reporter-method-output">23:09:45,928 DEBUG - is Element Visible By.cssSelector: i[id='PH_user-email']
+</span>
+                <span class="reporter-method-output">23:09:45,929 DEBUG - is Element Present By.cssSelector: i[id='PH_user-email']
+</span>
+                <span class="reporter-method-output">23:09:45,929 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:09:46,217  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13543985679799.png
+</span>
+                <span class="reporter-method-output">23:09:46,237 DEBUG - find Element By.cssSelector: i[id='PH_user-email']
+</span>
+                <span class="reporter-method-output">23:09:46,238 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:09:46,519  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13544294785978.png
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FullMessage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Create By.cssSelector: i[id='PH_user-email']</span>
+                <span class="reporter-method-output">Create By.name: login</span>
+                <span class="reporter-method-output">Create By.name: password</span>
+                <span class="reporter-method-output">Create By.cssSelector: input[class='o-control']</span>
+                <span class="reporter-method-output">23:09:56,673 DEBUG - Our driver ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)
+</span>
+                <span class="reporter-method-output">23:09:56,686 DEBUG - Open https://mail.ru
+</span>
+                <span class="reporter-method-output">23:09:58,860 DEBUG - value is type By.name: login
+</span>
+                <span class="reporter-method-output">23:09:58,862 DEBUG - find By.name: login
+</span>
+                <span class="reporter-method-output">23:09:58,863 DEBUG - find Element By.name: login
+</span>
+                <span class="reporter-method-output">23:09:58,866 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:09:59,644  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13556920992014.png
+</span>
+                <span class="reporter-method-output">23:10:00,158 DEBUG - value is type By.name: password
+</span>
+                <span class="reporter-method-output">23:10:00,158 DEBUG - find By.name: password
+</span>
+                <span class="reporter-method-output">23:10:00,159 DEBUG - find Element By.name: password
+</span>
+                <span class="reporter-method-output">23:10:00,160 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:00,620  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13558215497472.png
+</span>
+                <span class="reporter-method-output">23:10:01,075 DEBUG - click By.cssSelector: input[class='o-control']
+</span>
+                <span class="reporter-method-output">23:10:01,077 DEBUG - find By.cssSelector: input[class='o-control']
+</span>
+                <span class="reporter-method-output">23:10:01,078 DEBUG - find Element By.cssSelector: input[class='o-control']
+</span>
+                <span class="reporter-method-output">23:10:01,078 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:01,451  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13559134834305.png
+</span>
+                <span class="reporter-method-output">23:10:01,476 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: input[class='o-control']]
+</span>
+                <span class="reporter-method-output">Create By.cssSelector: div#b-toolbar__left a[data-name='compose']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='remove']</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[data-mnemo='drafts']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='500000']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='0']>a</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[href='/messages/trash/']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div.b-datalist__item__subj</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //*[text()='Drafts mail']</span>
+                <span class="reporter-method-output">23:10:01,628 DEBUG - wait for AppearBy.cssSelector: div#b-toolbar__left a[data-name='compose']
+</span>
+                <span class="reporter-method-output">23:10:01,630 DEBUG - wait For Element IsVisible By.cssSelector: div#b-toolbar__left a[data-name='compose']
+</span>
+                <span class="reporter-method-output">23:10:01,631 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:08,601  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13559686777247.png
+</span>
+                <span class="reporter-method-output">23:10:08,678 DEBUG - click By.cssSelector: div#b-toolbar__left a[data-name='compose']
+</span>
+                <span class="reporter-method-output">23:10:08,679 DEBUG - find By.cssSelector: div#b-toolbar__left a[data-name='compose']
+</span>
+                <span class="reporter-method-output">23:10:08,681 DEBUG - find Element By.cssSelector: div#b-toolbar__left a[data-name='compose']
+</span>
+                <span class="reporter-method-output">23:10:08,681 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:08,966  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13566737278249.png
+</span>
+                <span class="reporter-method-output">23:10:08,993 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div#b-toolbar__left a[data-name='compose']]
+</span>
+                <span class="reporter-method-output">Create By.cssSelector: textarea[data-original-name='To']</span>
+                <span class="reporter-method-output">Create By.name: Subject</span>
+                <span class="reporter-method-output">Create By.cssSelector: body[id='tinymce']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='send']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='saveDraft']</span>
+                <span class="reporter-method-output">Create By.xpath: //iframe[contains(@id,'toolkit')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']</span>
+                <span class="reporter-method-output">23:10:10,958 DEBUG - value is type By.cssSelector: textarea[data-original-name='To']
+</span>
+                <span class="reporter-method-output">23:10:10,958 DEBUG - find By.cssSelector: textarea[data-original-name='To']
+</span>
+                <span class="reporter-method-output">23:10:10,959 DEBUG - find Element By.cssSelector: textarea[data-original-name='To']
+</span>
+                <span class="reporter-method-output">23:10:10,960 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:11,764  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13569017019350.png
+</span>
+                <span class="reporter-method-output">23:10:12,563 DEBUG - value is type By.name: Subject
+</span>
+                <span class="reporter-method-output">23:10:12,564 DEBUG - find By.name: Subject
+</span>
+                <span class="reporter-method-output">23:10:12,564 DEBUG - find Element By.name: Subject
+</span>
+                <span class="reporter-method-output">23:10:12,566 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:12,858  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13570621157817.png
+</span>
+                <span class="reporter-method-output">23:10:13,057 DEBUG - switch to By.xpath: //iframe[contains(@id,'toolkit')]
+</span>
+                <span class="reporter-method-output">23:10:13,058 DEBUG - find By.xpath: //iframe[contains(@id,'toolkit')]
+</span>
+                <span class="reporter-method-output">23:10:13,058 DEBUG - find Element By.xpath: //iframe[contains(@id,'toolkit')]
+</span>
+                <span class="reporter-method-output">23:10:13,059 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:13,341  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13571113848904.png
+</span>
+                <span class="reporter-method-output">23:10:13,724 DEBUG - value is type By.cssSelector: body[id='tinymce']
+</span>
+                <span class="reporter-method-output">23:10:13,725 DEBUG - find By.cssSelector: body[id='tinymce']
+</span>
+                <span class="reporter-method-output">23:10:13,725 DEBUG - find Element By.cssSelector: body[id='tinymce']
+</span>
+                <span class="reporter-method-output">23:10:13,726 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:13,996  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13571781578164.png
+</span>
+                <span class="reporter-method-output">23:10:14,246 DEBUG - click By.cssSelector: div[data-name='send']
+</span>
+                <span class="reporter-method-output">23:10:14,249 DEBUG - find By.cssSelector: div[data-name='send']
+</span>
+                <span class="reporter-method-output">23:10:14,250 DEBUG - find Element By.cssSelector: div[data-name='send']
+</span>
+                <span class="reporter-method-output">23:10:14,251 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:14,550  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13572306513650.png
+</span>
+                <span class="reporter-method-output">23:10:14,582 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='send']]
+</span>
+                <span class="reporter-method-output">23:10:14,840 DEBUG - wait for AppearBy.cssSelector: div[data-id='0']>a
+</span>
+                <span class="reporter-method-output">23:10:14,842 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='0']>a
+</span>
+                <span class="reporter-method-output">23:10:14,843 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:15,398  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13572898531033.png
+</span>
+                <span class="reporter-method-output">23:10:15,866 DEBUG - click By.cssSelector: div[data-id='0']>a
+</span>
+                <span class="reporter-method-output">23:10:15,871 DEBUG - find By.cssSelector: div[data-id='0']>a
+</span>
+                <span class="reporter-method-output">23:10:15,873 DEBUG - find Element By.cssSelector: div[data-id='0']>a
+</span>
+                <span class="reporter-method-output">23:10:15,874 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:16,297  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13573928784424.png
+</span>
+                <span class="reporter-method-output">23:10:16,322 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='0']>a]
+</span>
+                <span class="reporter-method-output">Create By.cssSelector: div#b-toolbar__left a[data-name='compose']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='remove']</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[data-mnemo='drafts']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='500000']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='0']>a</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[href='/messages/trash/']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div.b-datalist__item__subj</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //*[text()='Drafts mail']</span>
+                <span class="reporter-method-output">23:10:16,600 DEBUG - wait for AppearBy.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+</span>
+                <span class="reporter-method-output">23:10:16,601 DEBUG - wait For Element IsVisible By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+</span>
+                <span class="reporter-method-output">23:10:16,602 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:16,934  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13574657639664.png
+</span>
+                <span class="reporter-method-output">23:10:17,001 DEBUG - get text By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+</span>
+                <span class="reporter-method-output">23:10:17,002 DEBUG - find By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+</span>
+                <span class="reporter-method-output">23:10:17,003 DEBUG - find Element By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+</span>
+                <span class="reporter-method-output">23:10:17,004 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:17,299  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13575059183436.png
+</span>
+                <span class="reporter-method-output">Create By.cssSelector: div#b-toolbar__left a[data-name='compose']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='remove']</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[data-mnemo='drafts']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='500000']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='0']>a</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[href='/messages/trash/']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div.b-datalist__item__subj</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //*[text()='Drafts mail']</span>
+                <span class="reporter-method-output">23:10:17,362 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:17,363 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:17,364 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:17,365 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:17,675  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13575420505665.png
+</span>
+                <span class="reporter-method-output">23:10:17,703 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]
+</span>
+                <span class="reporter-method-output">23:10:17,811 DEBUG - click By.cssSelector: div[data-name='remove']
+</span>
+                <span class="reporter-method-output">23:10:17,813 DEBUG - find By.cssSelector: div[data-name='remove']
+</span>
+                <span class="reporter-method-output">23:10:17,814 DEBUG - find Element By.cssSelector: div[data-name='remove']
+</span>
+                <span class="reporter-method-output">23:10:17,815 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:18,117  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13575870341059.png
+</span>
+                <span class="reporter-method-output">23:10:18,179 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='remove']]
+</span>
+                <span class="reporter-method-output">23:10:18,287 DEBUG - wait for AppearBy.cssSelector: div[data-id='500000']
+</span>
+                <span class="reporter-method-output">23:10:18,288 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='500000']
+</span>
+                <span class="reporter-method-output">23:10:18,290 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:18,718  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13576346015077.png
+</span>
+                <span class="reporter-method-output">23:10:18,783 DEBUG - click By.cssSelector: div[data-id='500000']
+</span>
+                <span class="reporter-method-output">23:10:18,784 DEBUG - find By.cssSelector: div[data-id='500000']
+</span>
+                <span class="reporter-method-output">23:10:18,785 DEBUG - find Element By.cssSelector: div[data-id='500000']
+</span>
+                <span class="reporter-method-output">23:10:18,787 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:19,097  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13576841797585.png
+</span>
+                <span class="reporter-method-output">23:10:19,128 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='500000']]
+</span>
+                <span class="reporter-method-output">Create By.cssSelector: div#b-toolbar__left a[data-name='compose']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='remove']</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[data-mnemo='drafts']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='500000']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='0']>a</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[href='/messages/trash/']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div.b-datalist__item__subj</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //*[text()='Drafts mail']</span>
+                <span class="reporter-method-output">23:10:19,278 DEBUG - wait for AppearBy.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+</span>
+                <span class="reporter-method-output">23:10:19,284 DEBUG - wait For Element IsVisible By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+</span>
+                <span class="reporter-method-output">23:10:19,285 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:19,727  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13577339967934.png
+</span>
+                <span class="reporter-method-output">23:10:19,778 DEBUG - get text By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+</span>
+                <span class="reporter-method-output">23:10:19,780 DEBUG - find By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+</span>
+                <span class="reporter-method-output">23:10:19,781 DEBUG - find Element By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+</span>
+                <span class="reporter-method-output">23:10:19,782 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:20,099  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13577837743160.png
+</span>
+                <span class="reporter-method-output">Create By.cssSelector: div#b-toolbar__left a[data-name='compose']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='remove']</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[data-mnemo='drafts']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='500000']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='0']>a</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[href='/messages/trash/']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div.b-datalist__item__subj</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //*[text()='Drafts mail']</span>
+                <span class="reporter-method-output">23:10:20,149 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:20,150 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:20,150 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:20,151 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:20,456  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13578206508290.png
+</span>
+                <span class="reporter-method-output">23:10:20,471 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]
+</span>
+                <span class="reporter-method-output">23:10:20,663 DEBUG - click By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+</span>
+                <span class="reporter-method-output">23:10:20,664 DEBUG - find By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+</span>
+                <span class="reporter-method-output">23:10:20,665 DEBUG - find Element By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+</span>
+                <span class="reporter-method-output">23:10:20,666 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:20,959  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13578721362733.png
+</span>
+                <span class="reporter-method-output">23:10:20,986 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testEmptyEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Create By.cssSelector: i[id='PH_user-email']</span>
+                <span class="reporter-method-output">Create By.name: login</span>
+                <span class="reporter-method-output">Create By.name: password</span>
+                <span class="reporter-method-output">Create By.cssSelector: input[class='o-control']</span>
+                <span class="reporter-method-output">23:10:23,196 DEBUG - Open https://mail.ru
+</span>
+                <span class="reporter-method-output">23:10:24,035 DEBUG - value is type By.name: login
+</span>
+                <span class="reporter-method-output">23:10:24,035 DEBUG - find By.name: login
+</span>
+                <span class="reporter-method-output">23:10:24,036 DEBUG - find Element By.name: login
+</span>
+                <span class="reporter-method-output">23:10:24,036 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:24,488  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13582091541297.png
+</span>
+                <span class="reporter-method-output">23:10:25,018 DEBUG - value is type By.name: password
+</span>
+                <span class="reporter-method-output">23:10:25,019 DEBUG - find By.name: password
+</span>
+                <span class="reporter-method-output">23:10:25,020 DEBUG - find Element By.name: password
+</span>
+                <span class="reporter-method-output">23:10:25,020 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:25,428  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13583075658281.png
+</span>
+                <span class="reporter-method-output">23:10:25,701 DEBUG - click By.cssSelector: input[class='o-control']
+</span>
+                <span class="reporter-method-output">23:10:25,702 DEBUG - find By.cssSelector: input[class='o-control']
+</span>
+                <span class="reporter-method-output">23:10:25,702 DEBUG - find Element By.cssSelector: input[class='o-control']
+</span>
+                <span class="reporter-method-output">23:10:25,703 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:26,089  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13583758907363.png
+</span>
+                <span class="reporter-method-output">23:10:26,117 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: input[class='o-control']]
+</span>
+                <span class="reporter-method-output">Create By.cssSelector: div#b-toolbar__left a[data-name='compose']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='remove']</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[data-mnemo='drafts']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='500000']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='0']>a</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[href='/messages/trash/']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div.b-datalist__item__subj</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //*[text()='Drafts mail']</span>
+                <span class="reporter-method-output">23:10:26,237 DEBUG - wait for AppearBy.cssSelector: div#b-toolbar__left a[data-name='compose']
+</span>
+                <span class="reporter-method-output">23:10:26,238 DEBUG - wait For Element IsVisible By.cssSelector: div#b-toolbar__left a[data-name='compose']
+</span>
+                <span class="reporter-method-output">23:10:26,239 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:31,850  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13584295259783.png
+</span>
+                <span class="reporter-method-output">23:10:31,901 DEBUG - click By.cssSelector: div#b-toolbar__left a[data-name='compose']
+</span>
+                <span class="reporter-method-output">23:10:31,902 DEBUG - find By.cssSelector: div#b-toolbar__left a[data-name='compose']
+</span>
+                <span class="reporter-method-output">23:10:31,903 DEBUG - find Element By.cssSelector: div#b-toolbar__left a[data-name='compose']
+</span>
+                <span class="reporter-method-output">23:10:31,903 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:32,202  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13589958329104.png
+</span>
+                <span class="reporter-method-output">23:10:32,226 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div#b-toolbar__left a[data-name='compose']]
+</span>
+                <span class="reporter-method-output">Create By.cssSelector: textarea[data-original-name='To']</span>
+                <span class="reporter-method-output">Create By.name: Subject</span>
+                <span class="reporter-method-output">Create By.cssSelector: body[id='tinymce']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='send']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='saveDraft']</span>
+                <span class="reporter-method-output">Create By.xpath: //iframe[contains(@id,'toolkit')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']</span>
+                <span class="reporter-method-output">23:10:33,905 DEBUG - value is type By.cssSelector: textarea[data-original-name='To']
+</span>
+                <span class="reporter-method-output">23:10:33,905 DEBUG - find By.cssSelector: textarea[data-original-name='To']
+</span>
+                <span class="reporter-method-output">23:10:33,907 DEBUG - find Element By.cssSelector: textarea[data-original-name='To']
+</span>
+                <span class="reporter-method-output">23:10:33,911 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:34,333  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13591966505234.png
+</span>
+                <span class="reporter-method-output">23:10:35,068 DEBUG - value is type By.name: Subject
+</span>
+                <span class="reporter-method-output">23:10:35,071 DEBUG - find By.name: Subject
+</span>
+                <span class="reporter-method-output">23:10:35,072 DEBUG - find Element By.name: Subject
+</span>
+                <span class="reporter-method-output">23:10:35,076 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:35,414  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13593130502210.png
+</span>
+                <span class="reporter-method-output">23:10:35,571 DEBUG - switch to By.xpath: //iframe[contains(@id,'toolkit')]
+</span>
+                <span class="reporter-method-output">23:10:35,572 DEBUG - find By.xpath: //iframe[contains(@id,'toolkit')]
+</span>
+                <span class="reporter-method-output">23:10:35,572 DEBUG - find Element By.xpath: //iframe[contains(@id,'toolkit')]
+</span>
+                <span class="reporter-method-output">23:10:35,573 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:35,868  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13593628722163.png
+</span>
+                <span class="reporter-method-output">23:10:35,947 DEBUG - value is type By.cssSelector: body[id='tinymce']
+</span>
+                <span class="reporter-method-output">23:10:35,948 DEBUG - find By.cssSelector: body[id='tinymce']
+</span>
+                <span class="reporter-method-output">23:10:35,948 DEBUG - find Element By.cssSelector: body[id='tinymce']
+</span>
+                <span class="reporter-method-output">23:10:35,948 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:36,273  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13594002013813.png
+</span>
+                <span class="reporter-method-output">23:10:36,404 DEBUG - click By.cssSelector: div[data-name='send']
+</span>
+                <span class="reporter-method-output">23:10:36,404 DEBUG - find By.cssSelector: div[data-name='send']
+</span>
+                <span class="reporter-method-output">23:10:36,404 DEBUG - find Element By.cssSelector: div[data-name='send']
+</span>
+                <span class="reporter-method-output">23:10:36,404 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:36,706  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13594458395243.png
+</span>
+                <span class="reporter-method-output">23:10:36,730 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='send']]
+</span>
+                <span class="reporter-method-output">23:10:36,838 DEBUG - wait for AppearBy.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+</span>
+                <span class="reporter-method-output">23:10:36,839 DEBUG - wait For Element IsVisible By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+</span>
+                <span class="reporter-method-output">23:10:36,839 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:37,166  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13594893214838.png
+</span>
+                <span class="reporter-method-output">23:10:37,245 DEBUG - click By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+</span>
+                <span class="reporter-method-output">23:10:37,245 DEBUG - find By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+</span>
+                <span class="reporter-method-output">23:10:37,246 DEBUG - find Element By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+</span>
+                <span class="reporter-method-output">23:10:37,246 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:37,602  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13595301236226.png
+</span>
+                <span class="reporter-method-output">23:10:37,630 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@class='is-compose-empty_in']//button[@type='submit']]
+</span>
+                <span class="reporter-method-output">23:10:37,777 DEBUG - wait for AppearBy.cssSelector: div[data-id='0']>a
+</span>
+                <span class="reporter-method-output">23:10:37,778 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='0']>a
+</span>
+                <span class="reporter-method-output">23:10:37,779 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:38,613  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13595832740554.png
+</span>
+                <span class="reporter-method-output">23:10:39,076 DEBUG - click By.cssSelector: div[data-id='0']>a
+</span>
+                <span class="reporter-method-output">23:10:39,076 DEBUG - find By.cssSelector: div[data-id='0']>a
+</span>
+                <span class="reporter-method-output">23:10:39,077 DEBUG - find Element By.cssSelector: div[data-id='0']>a
+</span>
+                <span class="reporter-method-output">23:10:39,077 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:39,432  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13597130980576.png
+</span>
+                <span class="reporter-method-output">23:10:39,455 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='0']>a]
+</span>
+                <span class="reporter-method-output">Create By.cssSelector: div#b-toolbar__left a[data-name='compose']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='remove']</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[data-mnemo='drafts']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='500000']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='0']>a</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[href='/messages/trash/']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div.b-datalist__item__subj</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //*[text()='Drafts mail']</span>
+                <span class="reporter-method-output">23:10:39,773 DEBUG - wait for AppearBy.cssSelector: div.b-datalist__item__subj
+</span>
+                <span class="reporter-method-output">23:10:39,773 DEBUG - wait For Element IsVisible By.cssSelector: div.b-datalist__item__subj
+</span>
+                <span class="reporter-method-output">23:10:39,773 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:40,060  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13597827387868.png
+</span>
+                <span class="reporter-method-output">23:10:40,132 DEBUG - get text By.cssSelector: div.b-datalist__item__subj
+</span>
+                <span class="reporter-method-output">23:10:40,132 DEBUG - find By.cssSelector: div.b-datalist__item__subj
+</span>
+                <span class="reporter-method-output">23:10:40,132 DEBUG - find Element By.cssSelector: div.b-datalist__item__subj
+</span>
+                <span class="reporter-method-output">23:10:40,132 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:40,427  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13598186575410.png
+</span>
+                <span class="reporter-method-output">Create By.cssSelector: div#b-toolbar__left a[data-name='compose']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='remove']</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[data-mnemo='drafts']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='500000']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='0']>a</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[href='/messages/trash/']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div.b-datalist__item__subj</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //*[text()='Drafts mail']</span>
+                <span class="reporter-method-output">23:10:40,505 DEBUG - wait for AppearBy.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:40,506 DEBUG - wait For Element IsVisible By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:40,506 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:40,836  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13598560432091.png
+</span>
+                <span class="reporter-method-output">23:10:40,895 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:40,896 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:40,896 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:40,896 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:41,191  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13598950671252.png
+</span>
+                <span class="reporter-method-output">23:10:41,221 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]
+</span>
+                <span class="reporter-method-output">23:10:41,329 DEBUG - click By.cssSelector: div[data-name='remove']
+</span>
+                <span class="reporter-method-output">23:10:41,330 DEBUG - find By.cssSelector: div[data-name='remove']
+</span>
+                <span class="reporter-method-output">23:10:41,330 DEBUG - find Element By.cssSelector: div[data-name='remove']
+</span>
+                <span class="reporter-method-output">23:10:41,330 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:41,676  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13599386824457.png
+</span>
+                <span class="reporter-method-output">23:10:41,707 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='remove']]
+</span>
+                <span class="reporter-method-output">23:10:41,845 DEBUG - wait for AppearBy.cssSelector: div[data-id='500000']
+</span>
+                <span class="reporter-method-output">23:10:41,845 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='500000']
+</span>
+                <span class="reporter-method-output">23:10:41,845 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:42,199  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13599899287068.png
+</span>
+                <span class="reporter-method-output">23:10:42,259 DEBUG - click By.cssSelector: div[data-id='500000']
+</span>
+                <span class="reporter-method-output">23:10:42,259 DEBUG - find By.cssSelector: div[data-id='500000']
+</span>
+                <span class="reporter-method-output">23:10:42,260 DEBUG - find Element By.cssSelector: div[data-id='500000']
+</span>
+                <span class="reporter-method-output">23:10:42,260 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:42,555  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13600313901245.png
+</span>
+                <span class="reporter-method-output">23:10:42,577 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='500000']]
+</span>
+                <span class="reporter-method-output">Create By.cssSelector: div#b-toolbar__left a[data-name='compose']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='remove']</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[data-mnemo='drafts']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='500000']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='0']>a</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[href='/messages/trash/']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div.b-datalist__item__subj</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //*[text()='Drafts mail']</span>
+                <span class="reporter-method-output">23:10:42,699 DEBUG - wait for AppearBy.cssSelector: div.b-datalist__item__subj
+</span>
+                <span class="reporter-method-output">23:10:42,700 DEBUG - wait For Element IsVisible By.cssSelector: div.b-datalist__item__subj
+</span>
+                <span class="reporter-method-output">23:10:42,700 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:43,125  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13600754206373.png
+</span>
+                <span class="reporter-method-output">23:10:43,170 DEBUG - get text By.cssSelector: div.b-datalist__item__subj
+</span>
+                <span class="reporter-method-output">23:10:43,171 DEBUG - find By.cssSelector: div.b-datalist__item__subj
+</span>
+                <span class="reporter-method-output">23:10:43,171 DEBUG - find Element By.cssSelector: div.b-datalist__item__subj
+</span>
+                <span class="reporter-method-output">23:10:43,171 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:43,490  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13601225138349.png
+</span>
+                <span class="reporter-method-output">Create By.cssSelector: div#b-toolbar__left a[data-name='compose']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-name='remove']</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[data-mnemo='drafts']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='500000']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div[data-id='0']>a</span>
+                <span class="reporter-method-output">Create By.cssSelector: a[href='/messages/trash/']</span>
+                <span class="reporter-method-output">Create By.cssSelector: div.b-datalist__item__subj</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']</span>
+                <span class="reporter-method-output">Create By.xpath: //*[text()='Drafts mail']</span>
+                <span class="reporter-method-output">23:10:43,572 DEBUG - wait for AppearBy.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:43,573 DEBUG - wait For Element IsVisible By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:43,573 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:43,985  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13601627780824.png
+</span>
+                <span class="reporter-method-output">23:10:44,033 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:44,033 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:44,033 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+</span>
+                <span class="reporter-method-output">23:10:44,034 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:44,353  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13602087888836.png
+</span>
+                <span class="reporter-method-output">23:10:44,368 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]
+</span>
+                <span class="reporter-method-output">23:10:44,559 DEBUG - click By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+</span>
+                <span class="reporter-method-output">23:10:44,559 DEBUG - find By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+</span>
+                <span class="reporter-method-output">23:10:44,560 DEBUG - find Element By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+</span>
+                <span class="reporter-method-output">23:10:44,560 DEBUG - Find null
+</span>
+                <span class="reporter-method-output">23:10:44,926  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13602614773138.png
+</span>
+                <span class="reporter-method-output">23:10:44,967 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Mail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Mail" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.test.Mail.MailLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulLogin</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">27434 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.test.Mail.MailSendFull</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FullMessage</span>
+                <span class="method-start">28235 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.test.Mail.MailEmpty</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testEmptyEmail</span>
+                <span class="method-start">61163 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.test.Mail.MailDraft</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDraft</span>
+                <span class="method-start">84791 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,3847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[23:09:20,738  INFO - Parse cli
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:20,755  INFO - Parse clis using JCommander
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:20,908  INFO - Start application
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[23:09:21,950  INFO - [SUITE STARTED] Mail
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:21,950 DEBUG - Parallel: methods
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:21,950 DEBUG - Thread count: 1
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:21,951  INFO - [TEST STARTED] Mail test
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: i[id='PH_user-email']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.name: login]]>
+    </line>
+    <line>
+      <![CDATA[Create By.name: password]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: input[class='o-control']]]>
+    </line>
+    <line>
+      <![CDATA[23:09:30,962 DEBUG - Our driver ChromeDriver: chrome on XP (425179e3f5cfddb8e6c47641cd6bbd03)
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:30,991 DEBUG - Open https://mail.ru
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:33,545 DEBUG - value is type By.name: login
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:33,549 DEBUG - find By.name: login
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:33,551 DEBUG - find Element By.name: login
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:33,553 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:34,112  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13531609796189.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:34,712 DEBUG - value is type By.name: password
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:34,712 DEBUG - find By.name: password
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:34,714 DEBUG - find Element By.name: password
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:34,715 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:35,273  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13532774022941.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:35,799 DEBUG - click By.cssSelector: input[class='o-control']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:35,801 DEBUG - find By.cssSelector: input[class='o-control']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:35,802 DEBUG - find Element By.cssSelector: input[class='o-control']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:35,808 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:36,231  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13533871418096.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:36,259 DEBUG - Click[[ChromeDriver: chrome on XP (425179e3f5cfddb8e6c47641cd6bbd03)] -> css selector: input[class='o-control']]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: i[id='PH_user-email']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.name: login]]>
+    </line>
+    <line>
+      <![CDATA[Create By.name: password]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: input[class='o-control']]]>
+    </line>
+    <line>
+      <![CDATA[23:09:36,446 DEBUG - wait for AppearBy.cssSelector: i[id='PH_user-email']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:36,447 DEBUG - wait For Element IsVisible By.cssSelector: i[id='PH_user-email']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:36,491 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:45,846  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13534548143950.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:45,927 DEBUG - element is visible By.cssSelector: i[id='PH_user-email']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:45,928 DEBUG - is Element Visible By.cssSelector: i[id='PH_user-email']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:45,929 DEBUG - is Element Present By.cssSelector: i[id='PH_user-email']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:45,929 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:46,217  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13543985679799.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:46,237 DEBUG - find Element By.cssSelector: i[id='PH_user-email']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:46,238 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:46,519  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13544294785978.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:49,468 DEBUG - Close
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: i[id='PH_user-email']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.name: login]]>
+    </line>
+    <line>
+      <![CDATA[Create By.name: password]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: input[class='o-control']]]>
+    </line>
+    <line>
+      <![CDATA[23:09:56,673 DEBUG - Our driver ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:56,686 DEBUG - Open https://mail.ru
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:58,860 DEBUG - value is type By.name: login
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:58,862 DEBUG - find By.name: login
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:58,863 DEBUG - find Element By.name: login
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:58,866 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:09:59,644  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13556920992014.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:00,158 DEBUG - value is type By.name: password
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:00,158 DEBUG - find By.name: password
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:00,159 DEBUG - find Element By.name: password
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:00,160 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:00,620  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13558215497472.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:01,075 DEBUG - click By.cssSelector: input[class='o-control']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:01,077 DEBUG - find By.cssSelector: input[class='o-control']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:01,078 DEBUG - find Element By.cssSelector: input[class='o-control']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:01,078 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:01,451  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13559134834305.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:01,476 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: input[class='o-control']]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:01,628 DEBUG - wait for AppearBy.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:01,630 DEBUG - wait For Element IsVisible By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:01,631 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:08,601  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13559686777247.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:08,678 DEBUG - click By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:08,679 DEBUG - find By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:08,681 DEBUG - find Element By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:08,681 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:08,966  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13566737278249.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:08,993 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div#b-toolbar__left a[data-name='compose']]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: textarea[data-original-name='To']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.name: Subject]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: body[id='tinymce']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='send']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='saveDraft']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //iframe[contains(@id,'toolkit')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:10,958 DEBUG - value is type By.cssSelector: textarea[data-original-name='To']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:10,958 DEBUG - find By.cssSelector: textarea[data-original-name='To']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:10,959 DEBUG - find Element By.cssSelector: textarea[data-original-name='To']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:10,960 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:11,764  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13569017019350.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:12,563 DEBUG - value is type By.name: Subject
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:12,564 DEBUG - find By.name: Subject
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:12,564 DEBUG - find Element By.name: Subject
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:12,566 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:12,858  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13570621157817.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:13,057 DEBUG - switch to By.xpath: //iframe[contains(@id,'toolkit')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:13,058 DEBUG - find By.xpath: //iframe[contains(@id,'toolkit')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:13,058 DEBUG - find Element By.xpath: //iframe[contains(@id,'toolkit')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:13,059 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:13,341  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13571113848904.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:13,724 DEBUG - value is type By.cssSelector: body[id='tinymce']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:13,725 DEBUG - find By.cssSelector: body[id='tinymce']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:13,725 DEBUG - find Element By.cssSelector: body[id='tinymce']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:13,726 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:13,996  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13571781578164.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:14,246 DEBUG - click By.cssSelector: div[data-name='send']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:14,249 DEBUG - find By.cssSelector: div[data-name='send']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:14,250 DEBUG - find Element By.cssSelector: div[data-name='send']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:14,251 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:14,550  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13572306513650.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:14,582 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='send']]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:14,840 DEBUG - wait for AppearBy.cssSelector: div[data-id='0']>a
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:14,842 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='0']>a
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:14,843 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:15,398  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13572898531033.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:15,866 DEBUG - click By.cssSelector: div[data-id='0']>a
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:15,871 DEBUG - find By.cssSelector: div[data-id='0']>a
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:15,873 DEBUG - find Element By.cssSelector: div[data-id='0']>a
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:15,874 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:16,297  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13573928784424.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:16,322 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='0']>a]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:16,600 DEBUG - wait for AppearBy.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:16,601 DEBUG - wait For Element IsVisible By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:16,602 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:16,934  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13574657639664.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,001 DEBUG - get text By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,002 DEBUG - find By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,003 DEBUG - find Element By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,004 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,299  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13575059183436.png
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,362 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,363 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,364 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,365 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,675  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13575420505665.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,703 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,811 DEBUG - click By.cssSelector: div[data-name='remove']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,813 DEBUG - find By.cssSelector: div[data-name='remove']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,814 DEBUG - find Element By.cssSelector: div[data-name='remove']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:17,815 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:18,117  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13575870341059.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:18,179 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='remove']]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:18,287 DEBUG - wait for AppearBy.cssSelector: div[data-id='500000']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:18,288 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='500000']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:18,290 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:18,718  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13576346015077.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:18,783 DEBUG - click By.cssSelector: div[data-id='500000']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:18,784 DEBUG - find By.cssSelector: div[data-id='500000']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:18,785 DEBUG - find Element By.cssSelector: div[data-id='500000']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:18,787 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:19,097  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13576841797585.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:19,128 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='500000']]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:19,278 DEBUG - wait for AppearBy.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:19,284 DEBUG - wait For Element IsVisible By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:19,285 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:19,727  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13577339967934.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:19,778 DEBUG - get text By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:19,780 DEBUG - find By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:19,781 DEBUG - find Element By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:19,782 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:20,099  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13577837743160.png
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:20,149 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:20,150 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:20,150 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:20,151 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:20,456  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13578206508290.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:20,471 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:20,663 DEBUG - click By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:20,664 DEBUG - find By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:20,665 DEBUG - find Element By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:20,666 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:20,959  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13578721362733.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:20,986 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: i[id='PH_user-email']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.name: login]]>
+    </line>
+    <line>
+      <![CDATA[Create By.name: password]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: input[class='o-control']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:23,196 DEBUG - Open https://mail.ru
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:24,035 DEBUG - value is type By.name: login
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:24,035 DEBUG - find By.name: login
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:24,036 DEBUG - find Element By.name: login
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:24,036 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:24,488  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13582091541297.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:25,018 DEBUG - value is type By.name: password
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:25,019 DEBUG - find By.name: password
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:25,020 DEBUG - find Element By.name: password
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:25,020 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:25,428  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13583075658281.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:25,701 DEBUG - click By.cssSelector: input[class='o-control']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:25,702 DEBUG - find By.cssSelector: input[class='o-control']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:25,702 DEBUG - find Element By.cssSelector: input[class='o-control']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:25,703 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:26,089  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13583758907363.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:26,117 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: input[class='o-control']]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:26,237 DEBUG - wait for AppearBy.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:26,238 DEBUG - wait For Element IsVisible By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:26,239 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:31,850  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13584295259783.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:31,901 DEBUG - click By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:31,902 DEBUG - find By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:31,903 DEBUG - find Element By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:31,903 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:32,202  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13589958329104.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:32,226 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div#b-toolbar__left a[data-name='compose']]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: textarea[data-original-name='To']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.name: Subject]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: body[id='tinymce']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='send']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='saveDraft']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //iframe[contains(@id,'toolkit')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:33,905 DEBUG - value is type By.cssSelector: textarea[data-original-name='To']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:33,905 DEBUG - find By.cssSelector: textarea[data-original-name='To']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:33,907 DEBUG - find Element By.cssSelector: textarea[data-original-name='To']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:33,911 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:34,333  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13591966505234.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,068 DEBUG - value is type By.name: Subject
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,071 DEBUG - find By.name: Subject
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,072 DEBUG - find Element By.name: Subject
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,076 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,414  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13593130502210.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,571 DEBUG - switch to By.xpath: //iframe[contains(@id,'toolkit')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,572 DEBUG - find By.xpath: //iframe[contains(@id,'toolkit')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,572 DEBUG - find Element By.xpath: //iframe[contains(@id,'toolkit')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,573 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,868  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13593628722163.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,947 DEBUG - value is type By.cssSelector: body[id='tinymce']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,948 DEBUG - find By.cssSelector: body[id='tinymce']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,948 DEBUG - find Element By.cssSelector: body[id='tinymce']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:35,948 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:36,273  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13594002013813.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:36,404 DEBUG - click By.cssSelector: div[data-name='send']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:36,404 DEBUG - find By.cssSelector: div[data-name='send']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:36,404 DEBUG - find Element By.cssSelector: div[data-name='send']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:36,404 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:36,706  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13594458395243.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:36,730 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='send']]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:36,838 DEBUG - wait for AppearBy.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:36,839 DEBUG - wait For Element IsVisible By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:36,839 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:37,166  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13594893214838.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:37,245 DEBUG - click By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:37,245 DEBUG - find By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:37,246 DEBUG - find Element By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:37,246 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:37,602  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13595301236226.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:37,630 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@class='is-compose-empty_in']//button[@type='submit']]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:37,777 DEBUG - wait for AppearBy.cssSelector: div[data-id='0']>a
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:37,778 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='0']>a
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:37,779 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:38,613  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13595832740554.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:39,076 DEBUG - click By.cssSelector: div[data-id='0']>a
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:39,076 DEBUG - find By.cssSelector: div[data-id='0']>a
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:39,077 DEBUG - find Element By.cssSelector: div[data-id='0']>a
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:39,077 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:39,432  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13597130980576.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:39,455 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='0']>a]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:39,773 DEBUG - wait for AppearBy.cssSelector: div.b-datalist__item__subj
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:39,773 DEBUG - wait For Element IsVisible By.cssSelector: div.b-datalist__item__subj
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:39,773 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,060  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13597827387868.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,132 DEBUG - get text By.cssSelector: div.b-datalist__item__subj
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,132 DEBUG - find By.cssSelector: div.b-datalist__item__subj
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,132 DEBUG - find Element By.cssSelector: div.b-datalist__item__subj
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,132 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,427  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13598186575410.png
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,505 DEBUG - wait for AppearBy.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,506 DEBUG - wait For Element IsVisible By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,506 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,836  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13598560432091.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,895 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,896 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,896 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:40,896 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:41,191  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13598950671252.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:41,221 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:41,329 DEBUG - click By.cssSelector: div[data-name='remove']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:41,330 DEBUG - find By.cssSelector: div[data-name='remove']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:41,330 DEBUG - find Element By.cssSelector: div[data-name='remove']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:41,330 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:41,676  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13599386824457.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:41,707 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='remove']]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:41,845 DEBUG - wait for AppearBy.cssSelector: div[data-id='500000']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:41,845 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='500000']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:41,845 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:42,199  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13599899287068.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:42,259 DEBUG - click By.cssSelector: div[data-id='500000']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:42,259 DEBUG - find By.cssSelector: div[data-id='500000']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:42,260 DEBUG - find Element By.cssSelector: div[data-id='500000']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:42,260 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:42,555  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13600313901245.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:42,577 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='500000']]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:42,699 DEBUG - wait for AppearBy.cssSelector: div.b-datalist__item__subj
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:42,700 DEBUG - wait For Element IsVisible By.cssSelector: div.b-datalist__item__subj
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:42,700 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:43,125  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13600754206373.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:43,170 DEBUG - get text By.cssSelector: div.b-datalist__item__subj
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:43,171 DEBUG - find By.cssSelector: div.b-datalist__item__subj
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:43,171 DEBUG - find Element By.cssSelector: div.b-datalist__item__subj
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:43,171 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:43,490  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13601225138349.png
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:43,572 DEBUG - wait for AppearBy.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:43,573 DEBUG - wait For Element IsVisible By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:43,573 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:43,985  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13601627780824.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:44,033 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:44,033 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:44,033 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:44,034 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:44,353  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13602087888836.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:44,368 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:44,559 DEBUG - click By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:44,559 DEBUG - find By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:44,560 DEBUG - find Element By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:44,560 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:44,926  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13602614773138.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:44,967 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: i[id='PH_user-email']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.name: login]]>
+    </line>
+    <line>
+      <![CDATA[Create By.name: password]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: input[class='o-control']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:46,824 DEBUG - Open https://mail.ru
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:47,660 DEBUG - value is type By.name: login
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:47,660 DEBUG - find By.name: login
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:47,660 DEBUG - find Element By.name: login
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:47,660 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:48,020  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13605713504184.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:48,530 DEBUG - value is type By.name: password
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:48,530 DEBUG - find By.name: password
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:48,530 DEBUG - find Element By.name: password
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:48,531 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:48,951  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13606583897699.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:49,231 DEBUG - click By.cssSelector: input[class='o-control']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:49,231 DEBUG - find By.cssSelector: input[class='o-control']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:49,231 DEBUG - find Element By.cssSelector: input[class='o-control']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:49,232 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:49,616  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13607285044181.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:49,642 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: input[class='o-control']]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:49,738 DEBUG - wait for AppearBy.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:49,739 DEBUG - wait For Element IsVisible By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:49,739 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:55,157  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13607792509319.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:55,207 DEBUG - click By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:55,207 DEBUG - find By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:55,208 DEBUG - find Element By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:55,208 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:55,507  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13613261391561.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:55,531 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div#b-toolbar__left a[data-name='compose']]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: textarea[data-original-name='To']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.name: Subject]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: body[id='tinymce']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='send']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='saveDraft']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //iframe[contains(@id,'toolkit')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:57,178 DEBUG - value is type By.name: Subject
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:57,178 DEBUG - find By.name: Subject
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:57,178 DEBUG - find Element By.name: Subject
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:57,178 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:57,582  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13615231934116.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:57,899 DEBUG - click By.cssSelector: div[data-name='saveDraft']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:57,900 DEBUG - find By.cssSelector: div[data-name='saveDraft']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:57,900 DEBUG - find Element By.cssSelector: div[data-name='saveDraft']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:57,901 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:58,193  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13615955446933.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:58,216 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='saveDraft']]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:58,338 DEBUG - wait for AppearBy.cssSelector: a[data-mnemo='drafts']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:58,338 DEBUG - wait For Element IsVisible By.cssSelector: a[data-mnemo='drafts']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:58,339 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:58,639  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13616392825417.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:58,688 DEBUG - click By.cssSelector: a[data-mnemo='drafts']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:58,689 DEBUG - find By.cssSelector: a[data-mnemo='drafts']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:58,689 DEBUG - find Element By.cssSelector: a[data-mnemo='drafts']
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:58,689 DEBUG - Find null
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:58,995  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13616742868692.png
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:59,020 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: a[data-mnemo='drafts']]
+]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+    </line>
+    <line>
+      <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+    </line>
+    <line>
+      <![CDATA[23:10:59,137 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:59,139 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:59,139 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+    </line>
+    <line>
+      <![CDATA[23:10:59,140 DEBUG - Find null
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Mail" duration-ms="97301" started-at="2018-05-31T20:09:21Z" finished-at="2018-05-31T20:10:59Z">
+    <groups>
+    </groups>
+    <test name="Mail test" duration-ms="97301" started-at="2018-05-31T20:09:21Z" finished-at="2018-05-31T20:10:59Z">
+      <class name="com.epam.tat.test.Mail.MailLogin">
+        <test-method status="PASS" signature="testSuccessfulLogin()[pri:0, instance:com.epam.tat.test.Mail.MailLogin@614c5515]" name="testSuccessfulLogin" duration-ms="27432" started-at="2018-05-31T20:09:22Z" description="This test for success logged" finished-at="2018-05-31T20:09:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Create By.cssSelector: i[id='PH_user-email']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.name: login]]>
+            </line>
+            <line>
+              <![CDATA[Create By.name: password]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: input[class='o-control']]]>
+            </line>
+            <line>
+              <![CDATA[23:09:30,962 DEBUG - Our driver ChromeDriver: chrome on XP (425179e3f5cfddb8e6c47641cd6bbd03)
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:30,991 DEBUG - Open https://mail.ru
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:33,545 DEBUG - value is type By.name: login
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:33,549 DEBUG - find By.name: login
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:33,551 DEBUG - find Element By.name: login
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:33,553 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:34,112  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13531609796189.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:34,712 DEBUG - value is type By.name: password
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:34,712 DEBUG - find By.name: password
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:34,714 DEBUG - find Element By.name: password
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:34,715 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:35,273  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13532774022941.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:35,799 DEBUG - click By.cssSelector: input[class='o-control']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:35,801 DEBUG - find By.cssSelector: input[class='o-control']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:35,802 DEBUG - find Element By.cssSelector: input[class='o-control']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:35,808 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:36,231  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13533871418096.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:36,259 DEBUG - Click[[ChromeDriver: chrome on XP (425179e3f5cfddb8e6c47641cd6bbd03)] -> css selector: input[class='o-control']]
+]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: i[id='PH_user-email']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.name: login]]>
+            </line>
+            <line>
+              <![CDATA[Create By.name: password]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: input[class='o-control']]]>
+            </line>
+            <line>
+              <![CDATA[23:09:36,446 DEBUG - wait for AppearBy.cssSelector: i[id='PH_user-email']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:36,447 DEBUG - wait For Element IsVisible By.cssSelector: i[id='PH_user-email']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:36,491 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:45,846  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13534548143950.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:45,927 DEBUG - element is visible By.cssSelector: i[id='PH_user-email']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:45,928 DEBUG - is Element Visible By.cssSelector: i[id='PH_user-email']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:45,929 DEBUG - is Element Present By.cssSelector: i[id='PH_user-email']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:45,929 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:46,217  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13543985679799.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:46,237 DEBUG - find Element By.cssSelector: i[id='PH_user-email']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:46,238 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:46,519  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13544294785978.png
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.epam.tat.test.Mail.MailLogin@614c5515]" name="closeBrowser" is-config="true" duration-ms="799" started-at="2018-05-31T20:09:49Z" description="Close chrome browser" finished-at="2018-05-31T20:09:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[23:09:49,468 DEBUG - Close
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.epam.tat.test.Mail.MailLogin -->
+      <class name="com.epam.tat.test.Mail.MailEmpty">
+        <test-method status="PASS" signature="testEmptyEmail()[pri:0, instance:com.epam.tat.test.Mail.MailEmpty@2d554825]" name="testEmptyEmail" duration-ms="23626" started-at="2018-05-31T20:10:23Z" description="Sending an empty email" finished-at="2018-05-31T20:10:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Create By.cssSelector: i[id='PH_user-email']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.name: login]]>
+            </line>
+            <line>
+              <![CDATA[Create By.name: password]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: input[class='o-control']]]>
+            </line>
+            <line>
+              <![CDATA[23:10:23,196 DEBUG - Open https://mail.ru
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:24,035 DEBUG - value is type By.name: login
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:24,035 DEBUG - find By.name: login
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:24,036 DEBUG - find Element By.name: login
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:24,036 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:24,488  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13582091541297.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:25,018 DEBUG - value is type By.name: password
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:25,019 DEBUG - find By.name: password
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:25,020 DEBUG - find Element By.name: password
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:25,020 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:25,428  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13583075658281.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:25,701 DEBUG - click By.cssSelector: input[class='o-control']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:25,702 DEBUG - find By.cssSelector: input[class='o-control']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:25,702 DEBUG - find Element By.cssSelector: input[class='o-control']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:25,703 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:26,089  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13583758907363.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:26,117 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: input[class='o-control']]
+]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+            </line>
+            <line>
+              <![CDATA[23:10:26,237 DEBUG - wait for AppearBy.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:26,238 DEBUG - wait For Element IsVisible By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:26,239 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:31,850  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13584295259783.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:31,901 DEBUG - click By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:31,902 DEBUG - find By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:31,903 DEBUG - find Element By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:31,903 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:32,202  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13589958329104.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:32,226 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div#b-toolbar__left a[data-name='compose']]
+]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: textarea[data-original-name='To']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.name: Subject]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: body[id='tinymce']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='send']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='saveDraft']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //iframe[contains(@id,'toolkit')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']]]>
+            </line>
+            <line>
+              <![CDATA[23:10:33,905 DEBUG - value is type By.cssSelector: textarea[data-original-name='To']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:33,905 DEBUG - find By.cssSelector: textarea[data-original-name='To']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:33,907 DEBUG - find Element By.cssSelector: textarea[data-original-name='To']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:33,911 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:34,333  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13591966505234.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,068 DEBUG - value is type By.name: Subject
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,071 DEBUG - find By.name: Subject
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,072 DEBUG - find Element By.name: Subject
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,076 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,414  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13593130502210.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,571 DEBUG - switch to By.xpath: //iframe[contains(@id,'toolkit')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,572 DEBUG - find By.xpath: //iframe[contains(@id,'toolkit')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,572 DEBUG - find Element By.xpath: //iframe[contains(@id,'toolkit')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,573 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,868  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13593628722163.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,947 DEBUG - value is type By.cssSelector: body[id='tinymce']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,948 DEBUG - find By.cssSelector: body[id='tinymce']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,948 DEBUG - find Element By.cssSelector: body[id='tinymce']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:35,948 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:36,273  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13594002013813.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:36,404 DEBUG - click By.cssSelector: div[data-name='send']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:36,404 DEBUG - find By.cssSelector: div[data-name='send']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:36,404 DEBUG - find Element By.cssSelector: div[data-name='send']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:36,404 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:36,706  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13594458395243.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:36,730 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='send']]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:36,838 DEBUG - wait for AppearBy.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:36,839 DEBUG - wait For Element IsVisible By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:36,839 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:37,166  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13594893214838.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:37,245 DEBUG - click By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:37,245 DEBUG - find By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:37,246 DEBUG - find Element By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:37,246 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:37,602  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13595301236226.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:37,630 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@class='is-compose-empty_in']//button[@type='submit']]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:37,777 DEBUG - wait for AppearBy.cssSelector: div[data-id='0']>a
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:37,778 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='0']>a
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:37,779 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:38,613  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13595832740554.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:39,076 DEBUG - click By.cssSelector: div[data-id='0']>a
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:39,076 DEBUG - find By.cssSelector: div[data-id='0']>a
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:39,077 DEBUG - find Element By.cssSelector: div[data-id='0']>a
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:39,077 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:39,432  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13597130980576.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:39,455 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='0']>a]
+]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+            </line>
+            <line>
+              <![CDATA[23:10:39,773 DEBUG - wait for AppearBy.cssSelector: div.b-datalist__item__subj
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:39,773 DEBUG - wait For Element IsVisible By.cssSelector: div.b-datalist__item__subj
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:39,773 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,060  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13597827387868.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,132 DEBUG - get text By.cssSelector: div.b-datalist__item__subj
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,132 DEBUG - find By.cssSelector: div.b-datalist__item__subj
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,132 DEBUG - find Element By.cssSelector: div.b-datalist__item__subj
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,132 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,427  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13598186575410.png
+]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,505 DEBUG - wait for AppearBy.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,506 DEBUG - wait For Element IsVisible By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,506 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,836  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13598560432091.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,895 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,896 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,896 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:40,896 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:41,191  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13598950671252.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:41,221 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:41,329 DEBUG - click By.cssSelector: div[data-name='remove']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:41,330 DEBUG - find By.cssSelector: div[data-name='remove']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:41,330 DEBUG - find Element By.cssSelector: div[data-name='remove']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:41,330 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:41,676  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13599386824457.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:41,707 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='remove']]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:41,845 DEBUG - wait for AppearBy.cssSelector: div[data-id='500000']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:41,845 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='500000']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:41,845 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:42,199  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13599899287068.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:42,259 DEBUG - click By.cssSelector: div[data-id='500000']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:42,259 DEBUG - find By.cssSelector: div[data-id='500000']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:42,260 DEBUG - find Element By.cssSelector: div[data-id='500000']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:42,260 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:42,555  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13600313901245.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:42,577 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='500000']]
+]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+            </line>
+            <line>
+              <![CDATA[23:10:42,699 DEBUG - wait for AppearBy.cssSelector: div.b-datalist__item__subj
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:42,700 DEBUG - wait For Element IsVisible By.cssSelector: div.b-datalist__item__subj
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:42,700 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:43,125  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13600754206373.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:43,170 DEBUG - get text By.cssSelector: div.b-datalist__item__subj
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:43,171 DEBUG - find By.cssSelector: div.b-datalist__item__subj
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:43,171 DEBUG - find Element By.cssSelector: div.b-datalist__item__subj
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:43,171 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:43,490  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13601225138349.png
+]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+            </line>
+            <line>
+              <![CDATA[23:10:43,572 DEBUG - wait for AppearBy.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:43,573 DEBUG - wait For Element IsVisible By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:43,573 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:43,985  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13601627780824.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:44,033 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:44,033 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:44,033 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:44,034 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:44,353  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13602087888836.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:44,368 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:44,559 DEBUG - click By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:44,559 DEBUG - find By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:44,560 DEBUG - find Element By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:44,560 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:44,926  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13602614773138.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:44,967 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testEmptyEmail -->
+      </class> <!-- com.epam.tat.test.Mail.MailEmpty -->
+      <class name="com.epam.tat.test.Mail.MailSendFull">
+        <test-method status="PASS" signature="FullMessage()[pri:0, instance:com.epam.tat.test.Mail.MailSendFull@77b52d12]" name="FullMessage" duration-ms="32924" started-at="2018-05-31T20:09:50Z" description="Send full letter" finished-at="2018-05-31T20:10:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Create By.cssSelector: i[id='PH_user-email']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.name: login]]>
+            </line>
+            <line>
+              <![CDATA[Create By.name: password]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: input[class='o-control']]]>
+            </line>
+            <line>
+              <![CDATA[23:09:56,673 DEBUG - Our driver ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:56,686 DEBUG - Open https://mail.ru
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:58,860 DEBUG - value is type By.name: login
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:58,862 DEBUG - find By.name: login
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:58,863 DEBUG - find Element By.name: login
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:58,866 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:09:59,644  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13556920992014.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:00,158 DEBUG - value is type By.name: password
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:00,158 DEBUG - find By.name: password
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:00,159 DEBUG - find Element By.name: password
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:00,160 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:00,620  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13558215497472.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:01,075 DEBUG - click By.cssSelector: input[class='o-control']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:01,077 DEBUG - find By.cssSelector: input[class='o-control']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:01,078 DEBUG - find Element By.cssSelector: input[class='o-control']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:01,078 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:01,451  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13559134834305.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:01,476 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: input[class='o-control']]
+]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+            </line>
+            <line>
+              <![CDATA[23:10:01,628 DEBUG - wait for AppearBy.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:01,630 DEBUG - wait For Element IsVisible By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:01,631 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:08,601  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13559686777247.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:08,678 DEBUG - click By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:08,679 DEBUG - find By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:08,681 DEBUG - find Element By.cssSelector: div#b-toolbar__left a[data-name='compose']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:08,681 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:08,966  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13566737278249.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:08,993 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div#b-toolbar__left a[data-name='compose']]
+]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: textarea[data-original-name='To']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.name: Subject]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: body[id='tinymce']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='send']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='saveDraft']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //iframe[contains(@id,'toolkit')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']]]>
+            </line>
+            <line>
+              <![CDATA[23:10:10,958 DEBUG - value is type By.cssSelector: textarea[data-original-name='To']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:10,958 DEBUG - find By.cssSelector: textarea[data-original-name='To']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:10,959 DEBUG - find Element By.cssSelector: textarea[data-original-name='To']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:10,960 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:11,764  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13569017019350.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:12,563 DEBUG - value is type By.name: Subject
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:12,564 DEBUG - find By.name: Subject
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:12,564 DEBUG - find Element By.name: Subject
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:12,566 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:12,858  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13570621157817.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:13,057 DEBUG - switch to By.xpath: //iframe[contains(@id,'toolkit')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:13,058 DEBUG - find By.xpath: //iframe[contains(@id,'toolkit')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:13,058 DEBUG - find Element By.xpath: //iframe[contains(@id,'toolkit')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:13,059 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:13,341  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13571113848904.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:13,724 DEBUG - value is type By.cssSelector: body[id='tinymce']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:13,725 DEBUG - find By.cssSelector: body[id='tinymce']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:13,725 DEBUG - find Element By.cssSelector: body[id='tinymce']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:13,726 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:13,996  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13571781578164.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:14,246 DEBUG - click By.cssSelector: div[data-name='send']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:14,249 DEBUG - find By.cssSelector: div[data-name='send']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:14,250 DEBUG - find Element By.cssSelector: div[data-name='send']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:14,251 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:14,550  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13572306513650.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:14,582 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='send']]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:14,840 DEBUG - wait for AppearBy.cssSelector: div[data-id='0']>a
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:14,842 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='0']>a
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:14,843 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:15,398  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13572898531033.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:15,866 DEBUG - click By.cssSelector: div[data-id='0']>a
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:15,871 DEBUG - find By.cssSelector: div[data-id='0']>a
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:15,873 DEBUG - find Element By.cssSelector: div[data-id='0']>a
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:15,874 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:16,297  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13573928784424.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:16,322 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='0']>a]
+]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+            </line>
+            <line>
+              <![CDATA[23:10:16,600 DEBUG - wait for AppearBy.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:16,601 DEBUG - wait For Element IsVisible By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:16,602 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:16,934  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13574657639664.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,001 DEBUG - get text By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,002 DEBUG - find By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,003 DEBUG - find Element By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,004 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,299  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13575059183436.png
+]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,362 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,363 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,364 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,365 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,675  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13575420505665.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,703 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,811 DEBUG - click By.cssSelector: div[data-name='remove']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,813 DEBUG - find By.cssSelector: div[data-name='remove']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,814 DEBUG - find Element By.cssSelector: div[data-name='remove']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:17,815 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:18,117  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13575870341059.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:18,179 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='remove']]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:18,287 DEBUG - wait for AppearBy.cssSelector: div[data-id='500000']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:18,288 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='500000']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:18,290 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:18,718  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13576346015077.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:18,783 DEBUG - click By.cssSelector: div[data-id='500000']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:18,784 DEBUG - find By.cssSelector: div[data-id='500000']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:18,785 DEBUG - find Element By.cssSelector: div[data-id='500000']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:18,787 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:19,097  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13576841797585.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:19,128 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='500000']]
+]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+            </line>
+            <line>
+              <![CDATA[23:10:19,278 DEBUG - wait for AppearBy.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:19,284 DEBUG - wait For Element IsVisible By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:19,285 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:19,727  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13577339967934.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:19,778 DEBUG - get text By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:19,780 DEBUG - find By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:19,781 DEBUG - find Element By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:19,782 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:20,099  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13577837743160.png
+]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div#b-toolbar__left a[data-name='compose']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[data-mnemo='drafts']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='500000']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div[data-id='0']>a]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: a[href='/messages/trash/']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.cssSelector: div.b-datalist__item__subj]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']]]>
+            </line>
+            <line>
+              <![CDATA[Create By.xpath: //*[text()='Drafts mail']]]>
+            </line>
+            <line>
+              <![CDATA[23:10:20,149 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:20,150 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:20,150 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:20,151 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:20,456  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13578206508290.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:20,471 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:20,663 DEBUG - click By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:20,664 DEBUG - find By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:20,665 DEBUG - find Element By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:20,666 DEBUG - Find null
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:20,959  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13578721362733.png
+]]>
+            </line>
+            <line>
+              <![CDATA[23:10:20,986 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FullMessage -->
+      </class> <!-- com.epam.tat.test.Mail.MailSendFull -->
+    </test> <!-- Mail test -->
+  </suite> <!-- Mail -->
+</testng-results>

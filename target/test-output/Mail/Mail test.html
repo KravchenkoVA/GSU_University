@@ -1,0 +1,1181 @@
+<html>
+<head>
+<title>TestNG:  Mail test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Mail test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 31 23:09:21 MSK 2018</td>
+</tr>
+<tr><td>Total time:</td><td>97 seconds (97301 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.tat.test.Mail.MailDraft.testDraft()'><b>testDraft</b><br>Test class: com.epam.tat.test.Mail.MailDraft<br>Test method: Experiments with draft<br/>
+<a href="#Output-1356735319" onClick='toggleBox("Output-1356735319", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1356735319" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1356735319">
+Create By.cssSelector: i[id='PH_user-email']<br/>
+Create By.name: login<br/>
+Create By.name: password<br/>
+Create By.cssSelector: input[class='o-control']<br/>
+23:10:46,824 DEBUG - Open https://mail.ru
+<br/>
+23:10:47,660 DEBUG - value is type By.name: login
+<br/>
+23:10:47,660 DEBUG - find By.name: login
+<br/>
+23:10:47,660 DEBUG - find Element By.name: login
+<br/>
+23:10:47,660 DEBUG - Find null
+<br/>
+23:10:48,020  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13605713504184.png
+<br/>
+23:10:48,530 DEBUG - value is type By.name: password
+<br/>
+23:10:48,530 DEBUG - find By.name: password
+<br/>
+23:10:48,530 DEBUG - find Element By.name: password
+<br/>
+23:10:48,531 DEBUG - Find null
+<br/>
+23:10:48,951  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13606583897699.png
+<br/>
+23:10:49,231 DEBUG - click By.cssSelector: input[class='o-control']
+<br/>
+23:10:49,231 DEBUG - find By.cssSelector: input[class='o-control']
+<br/>
+23:10:49,231 DEBUG - find Element By.cssSelector: input[class='o-control']
+<br/>
+23:10:49,232 DEBUG - Find null
+<br/>
+23:10:49,616  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13607285044181.png
+<br/>
+23:10:49,642 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: input[class='o-control']]
+<br/>
+Create By.cssSelector: div#b-toolbar__left a[data-name='compose']<br/>
+Create By.cssSelector: div[data-name='remove']<br/>
+Create By.cssSelector: a[data-mnemo='drafts']<br/>
+Create By.cssSelector: div[data-id='500000']<br/>
+Create By.cssSelector: div[data-id='0']>a<br/>
+Create By.cssSelector: a[href='/messages/trash/']<br/>
+Create By.cssSelector: div.b-datalist__item__subj<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //*[text()='Drafts mail']<br/>
+23:10:49,738 DEBUG - wait for AppearBy.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:49,739 DEBUG - wait For Element IsVisible By.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:49,739 DEBUG - Find null
+<br/>
+23:10:55,157  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13607792509319.png
+<br/>
+23:10:55,207 DEBUG - click By.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:55,207 DEBUG - find By.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:55,208 DEBUG - find Element By.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:55,208 DEBUG - Find null
+<br/>
+23:10:55,507  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13613261391561.png
+<br/>
+23:10:55,531 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div#b-toolbar__left a[data-name='compose']]
+<br/>
+Create By.cssSelector: textarea[data-original-name='To']<br/>
+Create By.name: Subject<br/>
+Create By.cssSelector: body[id='tinymce']<br/>
+Create By.cssSelector: div[data-name='send']<br/>
+Create By.cssSelector: div[data-name='saveDraft']<br/>
+Create By.xpath: //iframe[contains(@id,'toolkit')]<br/>
+Create By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']<br/>
+23:10:57,178 DEBUG - value is type By.name: Subject
+<br/>
+23:10:57,178 DEBUG - find By.name: Subject
+<br/>
+23:10:57,178 DEBUG - find Element By.name: Subject
+<br/>
+23:10:57,178 DEBUG - Find null
+<br/>
+23:10:57,582  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13615231934116.png
+<br/>
+23:10:57,899 DEBUG - click By.cssSelector: div[data-name='saveDraft']
+<br/>
+23:10:57,900 DEBUG - find By.cssSelector: div[data-name='saveDraft']
+<br/>
+23:10:57,900 DEBUG - find Element By.cssSelector: div[data-name='saveDraft']
+<br/>
+23:10:57,901 DEBUG - Find null
+<br/>
+23:10:58,193  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13615955446933.png
+<br/>
+23:10:58,216 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='saveDraft']]
+<br/>
+23:10:58,338 DEBUG - wait for AppearBy.cssSelector: a[data-mnemo='drafts']
+<br/>
+23:10:58,338 DEBUG - wait For Element IsVisible By.cssSelector: a[data-mnemo='drafts']
+<br/>
+23:10:58,339 DEBUG - Find null
+<br/>
+23:10:58,639  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13616392825417.png
+<br/>
+23:10:58,688 DEBUG - click By.cssSelector: a[data-mnemo='drafts']
+<br/>
+23:10:58,689 DEBUG - find By.cssSelector: a[data-mnemo='drafts']
+<br/>
+23:10:58,689 DEBUG - find Element By.cssSelector: a[data-mnemo='drafts']
+<br/>
+23:10:58,689 DEBUG - Find null
+<br/>
+23:10:58,995  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13616742868692.png
+<br/>
+23:10:59,020 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: a[data-mnemo='drafts']]
+<br/>
+Create By.cssSelector: div#b-toolbar__left a[data-name='compose']<br/>
+Create By.cssSelector: div[data-name='remove']<br/>
+Create By.cssSelector: a[data-mnemo='drafts']<br/>
+Create By.cssSelector: div[data-id='500000']<br/>
+Create By.cssSelector: div[data-id='0']>a<br/>
+Create By.cssSelector: a[href='/messages/trash/']<br/>
+Create By.cssSelector: div.b-datalist__item__subj<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //*[text()='Drafts mail']<br/>
+23:10:59,137 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:59,139 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:59,139 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:59,140 DEBUG - Find null
+<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Текст письма будет потерян.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;WORKING_MACHINE&apos;, ip: &apos;192.168.100.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\Kolfer\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 97adbc1b7dc88777f4fc7ea17a51ec63
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:291)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy5.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:285)
+	at com.epam.tat.framework.ui.Browser.screenshot(Browser.java:89)
+	at com.epam.tat.framework.listener.WebDriverListener.beforeFindBy(WebDriverListener.java:22)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:82)
+	at com.sun.proxy.$Proxy4.beforeFindBy(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:185)
+	at com.epam.tat.framework.ui.Browser.findElement(Browser.java:56)
+	at com.epam.tat.framework.ui.element.Element.getWrappedWebElement(Element.java:25)
+	at com.epam.tat.framework.ui.element.Element.click(Element.java:50)
+	at product.MailRu.screen.mail.EMail.clickProperCheckbox(EMail.java:108)
+	at product.MailRu.service.Mail.DeleteServiceMail.deleteDraft(DeleteServiceMail.java:11)
+	at com.epam.tat.test.Mail.MailDraft.testDraft(MailDraft.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1356735319", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1356735319'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Текст письма будет потерян.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;WORKING_MACHINE&apos;, ip: &apos;192.168.100.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\Kolfer\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 97adbc1b7dc88777f4fc7ea17a51ec63
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:291)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy5.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:285)
+	at com.epam.tat.framework.ui.Browser.screenshot(Browser.java:89)
+	at com.epam.tat.framework.listener.WebDriverListener.beforeFindBy(WebDriverListener.java:22)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:82)
+	at com.sun.proxy.$Proxy4.beforeFindBy(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:185)
+	at com.epam.tat.framework.ui.Browser.findElement(Browser.java:56)
+	at com.epam.tat.framework.ui.element.Element.getWrappedWebElement(Element.java:25)
+	at com.epam.tat.framework.ui.element.Element.click(Element.java:50)
+	at product.MailRu.screen.mail.EMail.clickProperCheckbox(EMail.java:108)
+	at product.MailRu.service.Mail.DeleteServiceMail.deleteDraft(DeleteServiceMail.java:11)
+	at com.epam.tat.test.Mail.MailDraft.testDraft(MailDraft.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>12</td>
+<td>com.epam.tat.test.Mail.MailDraft@68837a77</td></tr>
+<tr>
+<td title='com.epam.tat.test.Mail.MailDraft.testDraft()'><b>testDraft</b><br>Test class: com.epam.tat.test.Mail.MailDraft<br>Test method: Experiments with draft</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Текст письма будет потерян.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;WORKING_MACHINE&apos;, ip: &apos;192.168.100.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\Kolfer\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 97adbc1b7dc88777f4fc7ea17a51ec63
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:291)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy5.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:285)
+	at com.epam.tat.framework.ui.Browser.screenshot(Browser.java:89)
+	at com.epam.tat.framework.listener.TestListener.onTestFailure(TestListener.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1463757745", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1463757745'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Текст письма будет потерян.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;WORKING_MACHINE&apos;, ip: &apos;192.168.100.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\Kolfer\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 97adbc1b7dc88777f4fc7ea17a51ec63
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:291)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy5.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:285)
+	at com.epam.tat.framework.ui.Browser.screenshot(Browser.java:89)
+	at com.epam.tat.framework.listener.TestListener.onTestFailure(TestListener.java:31)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>12</td>
+<td>com.epam.tat.test.Mail.MailDraft@68837a77</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.tat.test.Mail.MailSendFull.FullMessage()'><b>FullMessage</b><br>Test class: com.epam.tat.test.Mail.MailSendFull<br>Test method: Send full letter<br/>
+<a href="#Output-348527643" onClick='toggleBox("Output-348527643", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-348527643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-348527643">
+Create By.cssSelector: i[id='PH_user-email']<br/>
+Create By.name: login<br/>
+Create By.name: password<br/>
+Create By.cssSelector: input[class='o-control']<br/>
+23:09:56,673 DEBUG - Our driver ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)
+<br/>
+23:09:56,686 DEBUG - Open https://mail.ru
+<br/>
+23:09:58,860 DEBUG - value is type By.name: login
+<br/>
+23:09:58,862 DEBUG - find By.name: login
+<br/>
+23:09:58,863 DEBUG - find Element By.name: login
+<br/>
+23:09:58,866 DEBUG - Find null
+<br/>
+23:09:59,644  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13556920992014.png
+<br/>
+23:10:00,158 DEBUG - value is type By.name: password
+<br/>
+23:10:00,158 DEBUG - find By.name: password
+<br/>
+23:10:00,159 DEBUG - find Element By.name: password
+<br/>
+23:10:00,160 DEBUG - Find null
+<br/>
+23:10:00,620  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13558215497472.png
+<br/>
+23:10:01,075 DEBUG - click By.cssSelector: input[class='o-control']
+<br/>
+23:10:01,077 DEBUG - find By.cssSelector: input[class='o-control']
+<br/>
+23:10:01,078 DEBUG - find Element By.cssSelector: input[class='o-control']
+<br/>
+23:10:01,078 DEBUG - Find null
+<br/>
+23:10:01,451  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13559134834305.png
+<br/>
+23:10:01,476 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: input[class='o-control']]
+<br/>
+Create By.cssSelector: div#b-toolbar__left a[data-name='compose']<br/>
+Create By.cssSelector: div[data-name='remove']<br/>
+Create By.cssSelector: a[data-mnemo='drafts']<br/>
+Create By.cssSelector: div[data-id='500000']<br/>
+Create By.cssSelector: div[data-id='0']>a<br/>
+Create By.cssSelector: a[href='/messages/trash/']<br/>
+Create By.cssSelector: div.b-datalist__item__subj<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //*[text()='Drafts mail']<br/>
+23:10:01,628 DEBUG - wait for AppearBy.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:01,630 DEBUG - wait For Element IsVisible By.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:01,631 DEBUG - Find null
+<br/>
+23:10:08,601  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13559686777247.png
+<br/>
+23:10:08,678 DEBUG - click By.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:08,679 DEBUG - find By.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:08,681 DEBUG - find Element By.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:08,681 DEBUG - Find null
+<br/>
+23:10:08,966  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13566737278249.png
+<br/>
+23:10:08,993 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div#b-toolbar__left a[data-name='compose']]
+<br/>
+Create By.cssSelector: textarea[data-original-name='To']<br/>
+Create By.name: Subject<br/>
+Create By.cssSelector: body[id='tinymce']<br/>
+Create By.cssSelector: div[data-name='send']<br/>
+Create By.cssSelector: div[data-name='saveDraft']<br/>
+Create By.xpath: //iframe[contains(@id,'toolkit')]<br/>
+Create By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']<br/>
+23:10:10,958 DEBUG - value is type By.cssSelector: textarea[data-original-name='To']
+<br/>
+23:10:10,958 DEBUG - find By.cssSelector: textarea[data-original-name='To']
+<br/>
+23:10:10,959 DEBUG - find Element By.cssSelector: textarea[data-original-name='To']
+<br/>
+23:10:10,960 DEBUG - Find null
+<br/>
+23:10:11,764  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13569017019350.png
+<br/>
+23:10:12,563 DEBUG - value is type By.name: Subject
+<br/>
+23:10:12,564 DEBUG - find By.name: Subject
+<br/>
+23:10:12,564 DEBUG - find Element By.name: Subject
+<br/>
+23:10:12,566 DEBUG - Find null
+<br/>
+23:10:12,858  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13570621157817.png
+<br/>
+23:10:13,057 DEBUG - switch to By.xpath: //iframe[contains(@id,'toolkit')]
+<br/>
+23:10:13,058 DEBUG - find By.xpath: //iframe[contains(@id,'toolkit')]
+<br/>
+23:10:13,058 DEBUG - find Element By.xpath: //iframe[contains(@id,'toolkit')]
+<br/>
+23:10:13,059 DEBUG - Find null
+<br/>
+23:10:13,341  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13571113848904.png
+<br/>
+23:10:13,724 DEBUG - value is type By.cssSelector: body[id='tinymce']
+<br/>
+23:10:13,725 DEBUG - find By.cssSelector: body[id='tinymce']
+<br/>
+23:10:13,725 DEBUG - find Element By.cssSelector: body[id='tinymce']
+<br/>
+23:10:13,726 DEBUG - Find null
+<br/>
+23:10:13,996  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13571781578164.png
+<br/>
+23:10:14,246 DEBUG - click By.cssSelector: div[data-name='send']
+<br/>
+23:10:14,249 DEBUG - find By.cssSelector: div[data-name='send']
+<br/>
+23:10:14,250 DEBUG - find Element By.cssSelector: div[data-name='send']
+<br/>
+23:10:14,251 DEBUG - Find null
+<br/>
+23:10:14,550  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13572306513650.png
+<br/>
+23:10:14,582 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='send']]
+<br/>
+23:10:14,840 DEBUG - wait for AppearBy.cssSelector: div[data-id='0']>a
+<br/>
+23:10:14,842 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='0']>a
+<br/>
+23:10:14,843 DEBUG - Find null
+<br/>
+23:10:15,398  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13572898531033.png
+<br/>
+23:10:15,866 DEBUG - click By.cssSelector: div[data-id='0']>a
+<br/>
+23:10:15,871 DEBUG - find By.cssSelector: div[data-id='0']>a
+<br/>
+23:10:15,873 DEBUG - find Element By.cssSelector: div[data-id='0']>a
+<br/>
+23:10:15,874 DEBUG - Find null
+<br/>
+23:10:16,297  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13573928784424.png
+<br/>
+23:10:16,322 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='0']>a]
+<br/>
+Create By.cssSelector: div#b-toolbar__left a[data-name='compose']<br/>
+Create By.cssSelector: div[data-name='remove']<br/>
+Create By.cssSelector: a[data-mnemo='drafts']<br/>
+Create By.cssSelector: div[data-id='500000']<br/>
+Create By.cssSelector: div[data-id='0']>a<br/>
+Create By.cssSelector: a[href='/messages/trash/']<br/>
+Create By.cssSelector: div.b-datalist__item__subj<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //*[text()='Drafts mail']<br/>
+23:10:16,600 DEBUG - wait for AppearBy.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+<br/>
+23:10:16,601 DEBUG - wait For Element IsVisible By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+<br/>
+23:10:16,602 DEBUG - Find null
+<br/>
+23:10:16,934  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13574657639664.png
+<br/>
+23:10:17,001 DEBUG - get text By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+<br/>
+23:10:17,002 DEBUG - find By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+<br/>
+23:10:17,003 DEBUG - find Element By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+<br/>
+23:10:17,004 DEBUG - Find null
+<br/>
+23:10:17,299  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13575059183436.png
+<br/>
+Create By.cssSelector: div#b-toolbar__left a[data-name='compose']<br/>
+Create By.cssSelector: div[data-name='remove']<br/>
+Create By.cssSelector: a[data-mnemo='drafts']<br/>
+Create By.cssSelector: div[data-id='500000']<br/>
+Create By.cssSelector: div[data-id='0']>a<br/>
+Create By.cssSelector: a[href='/messages/trash/']<br/>
+Create By.cssSelector: div.b-datalist__item__subj<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //*[text()='Drafts mail']<br/>
+23:10:17,362 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:17,363 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:17,364 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:17,365 DEBUG - Find null
+<br/>
+23:10:17,675  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13575420505665.png
+<br/>
+23:10:17,703 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]
+<br/>
+23:10:17,811 DEBUG - click By.cssSelector: div[data-name='remove']
+<br/>
+23:10:17,813 DEBUG - find By.cssSelector: div[data-name='remove']
+<br/>
+23:10:17,814 DEBUG - find Element By.cssSelector: div[data-name='remove']
+<br/>
+23:10:17,815 DEBUG - Find null
+<br/>
+23:10:18,117  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13575870341059.png
+<br/>
+23:10:18,179 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='remove']]
+<br/>
+23:10:18,287 DEBUG - wait for AppearBy.cssSelector: div[data-id='500000']
+<br/>
+23:10:18,288 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='500000']
+<br/>
+23:10:18,290 DEBUG - Find null
+<br/>
+23:10:18,718  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13576346015077.png
+<br/>
+23:10:18,783 DEBUG - click By.cssSelector: div[data-id='500000']
+<br/>
+23:10:18,784 DEBUG - find By.cssSelector: div[data-id='500000']
+<br/>
+23:10:18,785 DEBUG - find Element By.cssSelector: div[data-id='500000']
+<br/>
+23:10:18,787 DEBUG - Find null
+<br/>
+23:10:19,097  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13576841797585.png
+<br/>
+23:10:19,128 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='500000']]
+<br/>
+Create By.cssSelector: div#b-toolbar__left a[data-name='compose']<br/>
+Create By.cssSelector: div[data-name='remove']<br/>
+Create By.cssSelector: a[data-mnemo='drafts']<br/>
+Create By.cssSelector: div[data-id='500000']<br/>
+Create By.cssSelector: div[data-id='0']>a<br/>
+Create By.cssSelector: a[href='/messages/trash/']<br/>
+Create By.cssSelector: div.b-datalist__item__subj<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //*[text()='Drafts mail']<br/>
+23:10:19,278 DEBUG - wait for AppearBy.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+<br/>
+23:10:19,284 DEBUG - wait For Element IsVisible By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+<br/>
+23:10:19,285 DEBUG - Find null
+<br/>
+23:10:19,727  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13577339967934.png
+<br/>
+23:10:19,778 DEBUG - get text By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+<br/>
+23:10:19,780 DEBUG - find By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+<br/>
+23:10:19,781 DEBUG - find Element By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]
+<br/>
+23:10:19,782 DEBUG - Find null
+<br/>
+23:10:20,099  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13577837743160.png
+<br/>
+Create By.cssSelector: div#b-toolbar__left a[data-name='compose']<br/>
+Create By.cssSelector: div[data-name='remove']<br/>
+Create By.cssSelector: a[data-mnemo='drafts']<br/>
+Create By.cssSelector: div[data-id='500000']<br/>
+Create By.cssSelector: div[data-id='0']>a<br/>
+Create By.cssSelector: a[href='/messages/trash/']<br/>
+Create By.cssSelector: div.b-datalist__item__subj<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //*[text()='Drafts mail']<br/>
+23:10:20,149 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:20,150 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:20,150 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:20,151 DEBUG - Find null
+<br/>
+23:10:20,456  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13578206508290.png
+<br/>
+23:10:20,471 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]]
+<br/>
+23:10:20,663 DEBUG - click By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+<br/>
+23:10:20,664 DEBUG - find By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+<br/>
+23:10:20,665 DEBUG - find Element By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+<br/>
+23:10:20,666 DEBUG - Find null
+<br/>
+23:10:20,959  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13578721362733.png
+<br/>
+23:10:20,986 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]
+<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>com.epam.tat.test.Mail.MailSendFull@77b52d12</td></tr>
+<tr>
+<td title='com.epam.tat.test.Mail.MailEmpty.testEmptyEmail()'><b>testEmptyEmail</b><br>Test class: com.epam.tat.test.Mail.MailEmpty<br>Test method: Sending an empty email<br/>
+<a href="#Output-2053611288" onClick='toggleBox("Output-2053611288", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2053611288" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2053611288">
+Create By.cssSelector: i[id='PH_user-email']<br/>
+Create By.name: login<br/>
+Create By.name: password<br/>
+Create By.cssSelector: input[class='o-control']<br/>
+23:10:23,196 DEBUG - Open https://mail.ru
+<br/>
+23:10:24,035 DEBUG - value is type By.name: login
+<br/>
+23:10:24,035 DEBUG - find By.name: login
+<br/>
+23:10:24,036 DEBUG - find Element By.name: login
+<br/>
+23:10:24,036 DEBUG - Find null
+<br/>
+23:10:24,488  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13582091541297.png
+<br/>
+23:10:25,018 DEBUG - value is type By.name: password
+<br/>
+23:10:25,019 DEBUG - find By.name: password
+<br/>
+23:10:25,020 DEBUG - find Element By.name: password
+<br/>
+23:10:25,020 DEBUG - Find null
+<br/>
+23:10:25,428  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13583075658281.png
+<br/>
+23:10:25,701 DEBUG - click By.cssSelector: input[class='o-control']
+<br/>
+23:10:25,702 DEBUG - find By.cssSelector: input[class='o-control']
+<br/>
+23:10:25,702 DEBUG - find Element By.cssSelector: input[class='o-control']
+<br/>
+23:10:25,703 DEBUG - Find null
+<br/>
+23:10:26,089  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13583758907363.png
+<br/>
+23:10:26,117 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: input[class='o-control']]
+<br/>
+Create By.cssSelector: div#b-toolbar__left a[data-name='compose']<br/>
+Create By.cssSelector: div[data-name='remove']<br/>
+Create By.cssSelector: a[data-mnemo='drafts']<br/>
+Create By.cssSelector: div[data-id='500000']<br/>
+Create By.cssSelector: div[data-id='0']>a<br/>
+Create By.cssSelector: a[href='/messages/trash/']<br/>
+Create By.cssSelector: div.b-datalist__item__subj<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //*[text()='Drafts mail']<br/>
+23:10:26,237 DEBUG - wait for AppearBy.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:26,238 DEBUG - wait For Element IsVisible By.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:26,239 DEBUG - Find null
+<br/>
+23:10:31,850  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13584295259783.png
+<br/>
+23:10:31,901 DEBUG - click By.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:31,902 DEBUG - find By.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:31,903 DEBUG - find Element By.cssSelector: div#b-toolbar__left a[data-name='compose']
+<br/>
+23:10:31,903 DEBUG - Find null
+<br/>
+23:10:32,202  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13589958329104.png
+<br/>
+23:10:32,226 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div#b-toolbar__left a[data-name='compose']]
+<br/>
+Create By.cssSelector: textarea[data-original-name='To']<br/>
+Create By.name: Subject<br/>
+Create By.cssSelector: body[id='tinymce']<br/>
+Create By.cssSelector: div[data-name='send']<br/>
+Create By.cssSelector: div[data-name='saveDraft']<br/>
+Create By.xpath: //iframe[contains(@id,'toolkit')]<br/>
+Create By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']<br/>
+23:10:33,905 DEBUG - value is type By.cssSelector: textarea[data-original-name='To']
+<br/>
+23:10:33,905 DEBUG - find By.cssSelector: textarea[data-original-name='To']
+<br/>
+23:10:33,907 DEBUG - find Element By.cssSelector: textarea[data-original-name='To']
+<br/>
+23:10:33,911 DEBUG - Find null
+<br/>
+23:10:34,333  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13591966505234.png
+<br/>
+23:10:35,068 DEBUG - value is type By.name: Subject
+<br/>
+23:10:35,071 DEBUG - find By.name: Subject
+<br/>
+23:10:35,072 DEBUG - find Element By.name: Subject
+<br/>
+23:10:35,076 DEBUG - Find null
+<br/>
+23:10:35,414  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13593130502210.png
+<br/>
+23:10:35,571 DEBUG - switch to By.xpath: //iframe[contains(@id,'toolkit')]
+<br/>
+23:10:35,572 DEBUG - find By.xpath: //iframe[contains(@id,'toolkit')]
+<br/>
+23:10:35,572 DEBUG - find Element By.xpath: //iframe[contains(@id,'toolkit')]
+<br/>
+23:10:35,573 DEBUG - Find null
+<br/>
+23:10:35,868  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13593628722163.png
+<br/>
+23:10:35,947 DEBUG - value is type By.cssSelector: body[id='tinymce']
+<br/>
+23:10:35,948 DEBUG - find By.cssSelector: body[id='tinymce']
+<br/>
+23:10:35,948 DEBUG - find Element By.cssSelector: body[id='tinymce']
+<br/>
+23:10:35,948 DEBUG - Find null
+<br/>
+23:10:36,273  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13594002013813.png
+<br/>
+23:10:36,404 DEBUG - click By.cssSelector: div[data-name='send']
+<br/>
+23:10:36,404 DEBUG - find By.cssSelector: div[data-name='send']
+<br/>
+23:10:36,404 DEBUG - find Element By.cssSelector: div[data-name='send']
+<br/>
+23:10:36,404 DEBUG - Find null
+<br/>
+23:10:36,706  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13594458395243.png
+<br/>
+23:10:36,730 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='send']]
+<br/>
+23:10:36,838 DEBUG - wait for AppearBy.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+<br/>
+23:10:36,839 DEBUG - wait For Element IsVisible By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+<br/>
+23:10:36,839 DEBUG - Find null
+<br/>
+23:10:37,166  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13594893214838.png
+<br/>
+23:10:37,245 DEBUG - click By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+<br/>
+23:10:37,245 DEBUG - find By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+<br/>
+23:10:37,246 DEBUG - find Element By.xpath: //div[@class='is-compose-empty_in']//button[@type='submit']
+<br/>
+23:10:37,246 DEBUG - Find null
+<br/>
+23:10:37,602  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13595301236226.png
+<br/>
+23:10:37,630 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@class='is-compose-empty_in']//button[@type='submit']]
+<br/>
+23:10:37,777 DEBUG - wait for AppearBy.cssSelector: div[data-id='0']>a
+<br/>
+23:10:37,778 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='0']>a
+<br/>
+23:10:37,779 DEBUG - Find null
+<br/>
+23:10:38,613  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13595832740554.png
+<br/>
+23:10:39,076 DEBUG - click By.cssSelector: div[data-id='0']>a
+<br/>
+23:10:39,076 DEBUG - find By.cssSelector: div[data-id='0']>a
+<br/>
+23:10:39,077 DEBUG - find Element By.cssSelector: div[data-id='0']>a
+<br/>
+23:10:39,077 DEBUG - Find null
+<br/>
+23:10:39,432  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13597130980576.png
+<br/>
+23:10:39,455 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='0']>a]
+<br/>
+Create By.cssSelector: div#b-toolbar__left a[data-name='compose']<br/>
+Create By.cssSelector: div[data-name='remove']<br/>
+Create By.cssSelector: a[data-mnemo='drafts']<br/>
+Create By.cssSelector: div[data-id='500000']<br/>
+Create By.cssSelector: div[data-id='0']>a<br/>
+Create By.cssSelector: a[href='/messages/trash/']<br/>
+Create By.cssSelector: div.b-datalist__item__subj<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //*[text()='Drafts mail']<br/>
+23:10:39,773 DEBUG - wait for AppearBy.cssSelector: div.b-datalist__item__subj
+<br/>
+23:10:39,773 DEBUG - wait For Element IsVisible By.cssSelector: div.b-datalist__item__subj
+<br/>
+23:10:39,773 DEBUG - Find null
+<br/>
+23:10:40,060  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13597827387868.png
+<br/>
+23:10:40,132 DEBUG - get text By.cssSelector: div.b-datalist__item__subj
+<br/>
+23:10:40,132 DEBUG - find By.cssSelector: div.b-datalist__item__subj
+<br/>
+23:10:40,132 DEBUG - find Element By.cssSelector: div.b-datalist__item__subj
+<br/>
+23:10:40,132 DEBUG - Find null
+<br/>
+23:10:40,427  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13598186575410.png
+<br/>
+Create By.cssSelector: div#b-toolbar__left a[data-name='compose']<br/>
+Create By.cssSelector: div[data-name='remove']<br/>
+Create By.cssSelector: a[data-mnemo='drafts']<br/>
+Create By.cssSelector: div[data-id='500000']<br/>
+Create By.cssSelector: div[data-id='0']>a<br/>
+Create By.cssSelector: a[href='/messages/trash/']<br/>
+Create By.cssSelector: div.b-datalist__item__subj<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //*[text()='Drafts mail']<br/>
+23:10:40,505 DEBUG - wait for AppearBy.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:40,506 DEBUG - wait For Element IsVisible By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:40,506 DEBUG - Find null
+<br/>
+23:10:40,836  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13598560432091.png
+<br/>
+23:10:40,895 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:40,896 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:40,896 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:40,896 DEBUG - Find null
+<br/>
+23:10:41,191  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13598950671252.png
+<br/>
+23:10:41,221 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]
+<br/>
+23:10:41,329 DEBUG - click By.cssSelector: div[data-name='remove']
+<br/>
+23:10:41,330 DEBUG - find By.cssSelector: div[data-name='remove']
+<br/>
+23:10:41,330 DEBUG - find Element By.cssSelector: div[data-name='remove']
+<br/>
+23:10:41,330 DEBUG - Find null
+<br/>
+23:10:41,676  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13599386824457.png
+<br/>
+23:10:41,707 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-name='remove']]
+<br/>
+23:10:41,845 DEBUG - wait for AppearBy.cssSelector: div[data-id='500000']
+<br/>
+23:10:41,845 DEBUG - wait For Element IsVisible By.cssSelector: div[data-id='500000']
+<br/>
+23:10:41,845 DEBUG - Find null
+<br/>
+23:10:42,199  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13599899287068.png
+<br/>
+23:10:42,259 DEBUG - click By.cssSelector: div[data-id='500000']
+<br/>
+23:10:42,259 DEBUG - find By.cssSelector: div[data-id='500000']
+<br/>
+23:10:42,260 DEBUG - find Element By.cssSelector: div[data-id='500000']
+<br/>
+23:10:42,260 DEBUG - Find null
+<br/>
+23:10:42,555  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13600313901245.png
+<br/>
+23:10:42,577 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> css selector: div[data-id='500000']]
+<br/>
+Create By.cssSelector: div#b-toolbar__left a[data-name='compose']<br/>
+Create By.cssSelector: div[data-name='remove']<br/>
+Create By.cssSelector: a[data-mnemo='drafts']<br/>
+Create By.cssSelector: div[data-id='500000']<br/>
+Create By.cssSelector: div[data-id='0']>a<br/>
+Create By.cssSelector: a[href='/messages/trash/']<br/>
+Create By.cssSelector: div.b-datalist__item__subj<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //*[text()='Drafts mail']<br/>
+23:10:42,699 DEBUG - wait for AppearBy.cssSelector: div.b-datalist__item__subj
+<br/>
+23:10:42,700 DEBUG - wait For Element IsVisible By.cssSelector: div.b-datalist__item__subj
+<br/>
+23:10:42,700 DEBUG - Find null
+<br/>
+23:10:43,125  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13600754206373.png
+<br/>
+23:10:43,170 DEBUG - get text By.cssSelector: div.b-datalist__item__subj
+<br/>
+23:10:43,171 DEBUG - find By.cssSelector: div.b-datalist__item__subj
+<br/>
+23:10:43,171 DEBUG - find Element By.cssSelector: div.b-datalist__item__subj
+<br/>
+23:10:43,171 DEBUG - Find null
+<br/>
+23:10:43,490  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13601225138349.png
+<br/>
+Create By.cssSelector: div#b-toolbar__left a[data-name='compose']<br/>
+Create By.cssSelector: div[data-name='remove']<br/>
+Create By.cssSelector: a[data-mnemo='drafts']<br/>
+Create By.cssSelector: div[data-id='500000']<br/>
+Create By.cssSelector: div[data-id='0']>a<br/>
+Create By.cssSelector: a[href='/messages/trash/']<br/>
+Create By.cssSelector: div.b-datalist__item__subj<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Test1')]<br/>
+Create By.xpath: //div[@class='b-datalist__item__subj' and contains(.,'Drafts mail')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key and contains(.,'Test1')]// div[contains(@class,'item-checkbox')]<br/>
+Create By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500001_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //div[@data-cache-key='500002_undefined_false']// div[@data-name='remove']<br/>
+Create By.xpath: //*[text()='Drafts mail']<br/>
+23:10:43,572 DEBUG - wait for AppearBy.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:43,573 DEBUG - wait For Element IsVisible By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:43,573 DEBUG - Find null
+<br/>
+23:10:43,985  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13601627780824.png
+<br/>
+23:10:44,033 DEBUG - click By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:44,033 DEBUG - find By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:44,033 DEBUG - find Element By.xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]
+<br/>
+23:10:44,034 DEBUG - Find null
+<br/>
+23:10:44,353  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13602087888836.png
+<br/>
+23:10:44,368 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key and contains(.,'<Без темы>')]// div[contains(@class,'item-checkbox')]]
+<br/>
+23:10:44,559 DEBUG - click By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+<br/>
+23:10:44,559 DEBUG - find By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+<br/>
+23:10:44,560 DEBUG - find Element By.xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']
+<br/>
+23:10:44,560 DEBUG - Find null
+<br/>
+23:10:44,926  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13602614773138.png
+<br/>
+23:10:44,967 DEBUG - Click[[ChromeDriver: chrome on XP (97adbc1b7dc88777f4fc7ea17a51ec63)] -> xpath: //div[@data-cache-key='500000_undefined_false']// div[@data-name='remove']]
+<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.epam.tat.test.Mail.MailEmpty@2d554825</td></tr>
+<tr>
+<td title='com.epam.tat.test.Mail.MailLogin.testSuccessfulLogin()'><b>testSuccessfulLogin</b><br>Test class: com.epam.tat.test.Mail.MailLogin<br>Test method: This test for success logged<br/>
+<a href="#Output-289070614" onClick='toggleBox("Output-289070614", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-289070614" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-289070614">
+Create By.cssSelector: i[id='PH_user-email']<br/>
+Create By.name: login<br/>
+Create By.name: password<br/>
+Create By.cssSelector: input[class='o-control']<br/>
+23:09:30,962 DEBUG - Our driver ChromeDriver: chrome on XP (425179e3f5cfddb8e6c47641cd6bbd03)
+<br/>
+23:09:30,991 DEBUG - Open https://mail.ru
+<br/>
+23:09:33,545 DEBUG - value is type By.name: login
+<br/>
+23:09:33,549 DEBUG - find By.name: login
+<br/>
+23:09:33,551 DEBUG - find Element By.name: login
+<br/>
+23:09:33,553 DEBUG - Find null
+<br/>
+23:09:34,112  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13531609796189.png
+<br/>
+23:09:34,712 DEBUG - value is type By.name: password
+<br/>
+23:09:34,712 DEBUG - find By.name: password
+<br/>
+23:09:34,714 DEBUG - find Element By.name: password
+<br/>
+23:09:34,715 DEBUG - Find null
+<br/>
+23:09:35,273  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13532774022941.png
+<br/>
+23:09:35,799 DEBUG - click By.cssSelector: input[class='o-control']
+<br/>
+23:09:35,801 DEBUG - find By.cssSelector: input[class='o-control']
+<br/>
+23:09:35,802 DEBUG - find Element By.cssSelector: input[class='o-control']
+<br/>
+23:09:35,808 DEBUG - Find null
+<br/>
+23:09:36,231  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13533871418096.png
+<br/>
+23:09:36,259 DEBUG - Click[[ChromeDriver: chrome on XP (425179e3f5cfddb8e6c47641cd6bbd03)] -> css selector: input[class='o-control']]
+<br/>
+Create By.cssSelector: i[id='PH_user-email']<br/>
+Create By.name: login<br/>
+Create By.name: password<br/>
+Create By.cssSelector: input[class='o-control']<br/>
+23:09:36,446 DEBUG - wait for AppearBy.cssSelector: i[id='PH_user-email']
+<br/>
+23:09:36,447 DEBUG - wait For Element IsVisible By.cssSelector: i[id='PH_user-email']
+<br/>
+23:09:36,491 DEBUG - Find null
+<br/>
+23:09:45,846  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13534548143950.png
+<br/>
+23:09:45,927 DEBUG - element is visible By.cssSelector: i[id='PH_user-email']
+<br/>
+23:09:45,928 DEBUG - is Element Visible By.cssSelector: i[id='PH_user-email']
+<br/>
+23:09:45,929 DEBUG - is Element Present By.cssSelector: i[id='PH_user-email']
+<br/>
+23:09:45,929 DEBUG - Find null
+<br/>
+23:09:46,217  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13543985679799.png
+<br/>
+23:09:46,237 DEBUG - find Element By.cssSelector: i[id='PH_user-email']
+<br/>
+23:09:46,238 DEBUG - Find null
+<br/>
+23:09:46,519  INFO - Screenshot taken: file://C:\Users\Kolfer\Desktop\QA\Task8\target\log\screenshot\13544294785978.png
+<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.epam.tat.test.Mail.MailLogin@614c5515</td></tr>
+</table><p>
+</body>
+</html>
